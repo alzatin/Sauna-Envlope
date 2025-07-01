@@ -849,8 +849,8 @@
                 {
                     "atomType": "Move",
                     "name": "Move",
-                    "x": 0.5879629629629629,
-                    "y": 0.6564245810055866,
+                    "x": 0.5853174603174603,
+                    "y": 0.6536312849162011,
                     "uniqueID": "92ce9643-7408-4366-a865-8816da89d06e",
                     "ioValues": [
                         {
@@ -863,7 +863,7 @@
                         },
                         {
                             "name": "yDist",
-                            "ioValue": -1709.6
+                            "ioValue": -1700
                         },
                         {
                             "name": "zDist",
@@ -871,24 +871,6 @@
                         }
                     ],
                     "description": "Moves a shape laterally in X, Y, Z."
-                },
-                {
-                    "atomType": "Difference",
-                    "name": "Difference",
-                    "x": 0.6772486772486772,
-                    "y": 0.6871508379888268,
-                    "uniqueID": "993e7944-a914-4c9b-970d-2dfe335e7259",
-                    "ioValues": [
-                        {
-                            "name": "geometry1",
-                            "ioValue": "f0e2e756-bd37-445d-bcf9-354bbcd9c0aa"
-                        },
-                        {
-                            "name": "geometry2",
-                            "ioValue": "92ce9643-7408-4366-a865-8816da89d06e"
-                        }
-                    ],
-                    "description": "Subtracts shape two from shape one."
                 }
             ],
             "allConnectors": [
@@ -1006,13 +988,6 @@
                 },
                 {
                     "ap1Name": "geometry",
-                    "ap2Name": "geometry1",
-                    "ap2Primary": false,
-                    "ap1ID": "f0e2e756-bd37-445d-bcf9-354bbcd9c0aa",
-                    "ap2ID": "993e7944-a914-4c9b-970d-2dfe335e7259"
-                },
-                {
-                    "ap1Name": "geometry",
                     "ap2Name": "number or geometry",
                     "ap2Primary": false,
                     "ap1ID": "f0e2e756-bd37-445d-bcf9-354bbcd9c0aa",
@@ -1031,13 +1006,6 @@
                     "ap2Primary": true,
                     "ap1ID": "38cfca59-c3b0-43ca-8172-ec2207f83f8a",
                     "ap2ID": "92ce9643-7408-4366-a865-8816da89d06e"
-                },
-                {
-                    "ap1Name": "geometry",
-                    "ap2Name": "geometry2",
-                    "ap2Primary": false,
-                    "ap1ID": "92ce9643-7408-4366-a865-8816da89d06e",
-                    "ap2ID": "993e7944-a914-4c9b-970d-2dfe335e7259"
                 }
             ],
             "fileTypeVersion": 1,

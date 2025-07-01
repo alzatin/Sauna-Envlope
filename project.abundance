@@ -677,12 +677,12 @@
                         {
                             "atomType": "Constant",
                             "name": "Number of bumps",
-                            "x": 0.20965608465608468,
-                            "y": 0.27932960893854747,
+                            "x": 0.21362433862433863,
+                            "y": 0.3016759776536313,
                             "uniqueID": "8fa2bdd9-efab-4862-a259-6bed71fe6352",
                             "ioValues": [],
                             "description": "Defines a mathematical constant.",
-                            "value": 97
+                            "value": 96
                         },
                         {
                             "atomType": "GitHubMolecule",
@@ -693,7 +693,7 @@
                             "ioValues": [
                                 {
                                     "name": "Number of Bumps",
-                                    "ioValue": 97
+                                    "ioValue": 96
                                 },
                                 {
                                     "name": "Thickness",
@@ -730,7 +730,7 @@
                                         },
                                         {
                                             "name": "numBumps",
-                                            "ioValue": 97
+                                            "ioValue": 96
                                         }
                                     ],
                                     "description": "Defines a Replicad code block.",
@@ -808,8 +808,8 @@
                         {
                             "atomType": "Circle",
                             "name": "Circle",
-                            "x": 0.30952380952380953,
-                            "y": 0.8463687150837989,
+                            "x": 0.31547619047619047,
+                            "y": 0.8100558659217877,
                             "uniqueID": "463fbc19-ea5f-40e2-9ca0-986e43083610",
                             "ioValues": [
                                 {

@@ -25,8 +25,8 @@
         {
             "atomType": "Molecule",
             "name": "Envlope",
-            "x": 0.19775132275132273,
-            "y": 0.4748603351955307,
+            "x": 0.20634920634920637,
+            "y": 0.4776536312849162,
             "uniqueID": "0a40ea50-8d5e-49ae-bd3b-df35fa44f718",
             "ioValues": [],
             "description": "Molecules provide an organizational structure to contain atoms. Double click on a molecule to enter it. Use the up arrow in the upper right hand corner of the screen to go up one level.",

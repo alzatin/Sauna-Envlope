@@ -590,8 +590,8 @@
                 {
                     "atomType": "Fusion",
                     "name": "Fusion",
-                    "x": 0.7341269841269841,
-                    "y": 0.36592178770949724,
+                    "x": 0.6805555555555555,
+                    "y": 0.39385474860335196,
                     "uniqueID": "f0e2e756-bd37-445d-bcf9-354bbcd9c0aa",
                     "ioValues": [
                         {
@@ -638,8 +638,8 @@
                 {
                     "atomType": "Molecule",
                     "name": "Corrugated Envlope Side",
-                    "x": 0.4503968253968254,
-                    "y": 0.6480446927374302,
+                    "x": 0.4232804232804233,
+                    "y": 0.664804469273743,
                     "uniqueID": "38cfca59-c3b0-43ca-8172-ec2207f83f8a",
                     "ioValues": [
                         {
@@ -809,7 +809,7 @@
                             "atomType": "Circle",
                             "name": "Circle",
                             "x": 0.31547619047619047,
-                            "y": 0.8100558659217877,
+                            "y": 0.7988826815642459,
                             "uniqueID": "463fbc19-ea5f-40e2-9ca0-986e43083610",
                             "ioValues": [
                                 {
@@ -845,6 +845,50 @@
                     ],
                     "fileTypeVersion": 1,
                     "compiledBom": []
+                },
+                {
+                    "atomType": "Move",
+                    "name": "Move",
+                    "x": 0.5879629629629629,
+                    "y": 0.6564245810055866,
+                    "uniqueID": "92ce9643-7408-4366-a865-8816da89d06e",
+                    "ioValues": [
+                        {
+                            "name": "geometry",
+                            "ioValue": "38cfca59-c3b0-43ca-8172-ec2207f83f8a"
+                        },
+                        {
+                            "name": "xDist",
+                            "ioValue": 65.4
+                        },
+                        {
+                            "name": "yDist",
+                            "ioValue": -1709.6
+                        },
+                        {
+                            "name": "zDist",
+                            "ioValue": 0
+                        }
+                    ],
+                    "description": "Moves a shape laterally in X, Y, Z."
+                },
+                {
+                    "atomType": "Difference",
+                    "name": "Difference",
+                    "x": 0.6812169312169312,
+                    "y": 0.6731843575418994,
+                    "uniqueID": "993e7944-a914-4c9b-970d-2dfe335e7259",
+                    "ioValues": [
+                        {
+                            "name": "geometry1",
+                            "ioValue": "f0e2e756-bd37-445d-bcf9-354bbcd9c0aa"
+                        },
+                        {
+                            "name": "geometry2",
+                            "ioValue": ""
+                        }
+                    ],
+                    "description": "Subtracts shape two from shape one."
                 }
             ],
             "allConnectors": [
@@ -976,11 +1020,26 @@
                 },
                 {
                     "ap1Name": "geometry",
+                    "ap2Name": "geometry1",
+                    "ap2Primary": false,
+                    "ap1ID": "f0e2e756-bd37-445d-bcf9-354bbcd9c0aa",
+                    "ap2ID": "993e7944-a914-4c9b-970d-2dfe335e7259"
+                },
+                {
+                    "ap1Name": "geometry",
                     "ap2Name": "geometry",
                     "ap2Primary": true,
                     "ap1ID": "b93d6e33-59d0-47c7-a107-f6dc740dcac1",
                     "ap2ID": "2cf1ed77-0dbb-40a4-9cec-79321eb0a741"
-                }
+                },
+                {
+                    "ap1Name": "Geometry",
+                    "ap2Name": "geometry",
+                    "ap2Primary": true,
+                    "ap1ID": "38cfca59-c3b0-43ca-8172-ec2207f83f8a",
+                    "ap2ID": "92ce9643-7408-4366-a865-8816da89d06e"
+                },
+                null
             ],
             "fileTypeVersion": 1,
             "compiledBom": []

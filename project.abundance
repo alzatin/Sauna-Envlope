@@ -859,7 +859,7 @@
                         },
                         {
                             "name": "xDist",
-                            "ioValue": 65.4
+                            "ioValue": 70
                         },
                         {
                             "name": "yDist",
@@ -875,8 +875,8 @@
                 {
                     "atomType": "Difference",
                     "name": "Difference",
-                    "x": 0.6812169312169312,
-                    "y": 0.6731843575418994,
+                    "x": 0.6772486772486772,
+                    "y": 0.6871508379888268,
                     "uniqueID": "993e7944-a914-4c9b-970d-2dfe335e7259",
                     "ioValues": [
                         {

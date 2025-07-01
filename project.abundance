@@ -677,23 +677,23 @@
                         {
                             "atomType": "Constant",
                             "name": "Number of bumps",
-                            "x": 0.21164021164021166,
-                            "y": 0.298050139275766,
+                            "x": 0.20965608465608468,
+                            "y": 0.27932960893854747,
                             "uniqueID": "8fa2bdd9-efab-4862-a259-6bed71fe6352",
                             "ioValues": [],
                             "description": "Defines a mathematical constant.",
-                            "value": 84
+                            "value": 97
                         },
                         {
                             "atomType": "GitHubMolecule",
                             "name": "Corrugated-Roofing-Circle",
-                            "x": 0.39351851851851855,
-                            "y": 0.34818941504178275,
+                            "x": 0.3941798941798942,
+                            "y": 0.34636871508379885,
                             "uniqueID": "d68992b9-d07d-4cee-8ce9-4a84778d86ce",
                             "ioValues": [
                                 {
                                     "name": "Number of Bumps",
-                                    "ioValue": 84
+                                    "ioValue": 97
                                 },
                                 {
                                     "name": "Thickness",
@@ -730,7 +730,7 @@
                                         },
                                         {
                                             "name": "numBumps",
-                                            "ioValue": 84
+                                            "ioValue": 97
                                         }
                                     ],
                                     "description": "Defines a Replicad code block.",

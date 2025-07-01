@@ -41,7 +41,7 @@
                     "ioValues": [
                         {
                             "name": "number or geometry",
-                            "ioValue": "c1f457f2-6c8f-406a-9365-c5b235190d48"
+                            "ioValue": "f0e2e756-bd37-445d-bcf9-354bbcd9c0aa"
                         }
                     ],
                     "description": "Connect geometry here to make it available in the next level up. "
@@ -151,8 +151,8 @@
                 {
                     "atomType": "Rotate",
                     "name": "Rotate",
-                    "x": 0.8134920634920635,
-                    "y": 0.5515320334261838,
+                    "x": 0.8564814814814814,
+                    "y": 0.1424581005586592,
                     "uniqueID": "11d19b4f-d6c5-43bd-b99e-73702fe0080b",
                     "ioValues": [
                         {
@@ -324,13 +324,13 @@
                 {
                     "atomType": "Difference",
                     "name": "Difference",
-                    "x": 0.816137566137566,
-                    "y": 0.32122905027932963,
+                    "x": 0.8187830687830687,
+                    "y": 0.16759776536312848,
                     "uniqueID": "ad0c135d-2b4d-46b6-8382-e16a87c00c7b",
                     "ioValues": [
                         {
                             "name": "geometry1",
-                            "ioValue": "f0e2e756-bd37-445d-bcf9-354bbcd9c0aa"
+                            "ioValue": ""
                         },
                         {
                             "name": "geometry2",
@@ -342,8 +342,8 @@
                 {
                     "atomType": "Color",
                     "name": "Color",
-                    "x": 0.8816137566137565,
-                    "y": 0.31197771587743733,
+                    "x": 0.9212962962962963,
+                    "y": 0.20391061452513967,
                     "uniqueID": "c1f457f2-6c8f-406a-9365-c5b235190d48",
                     "ioValues": [
                         {
@@ -885,7 +885,7 @@
                         },
                         {
                             "name": "geometry2",
-                            "ioValue": ""
+                            "ioValue": "92ce9643-7408-4366-a865-8816da89d06e"
                         }
                     ],
                     "description": "Subtracts shape two from shape one."
@@ -984,13 +984,6 @@
                     "ap2ID": "11d19b4f-d6c5-43bd-b99e-73702fe0080b"
                 },
                 {
-                    "ap1Name": "geometry",
-                    "ap2Name": "number or geometry",
-                    "ap2Primary": false,
-                    "ap1ID": "c1f457f2-6c8f-406a-9365-c5b235190d48",
-                    "ap2ID": "38e4e192-0119-43d0-831c-2f5f1b00829a"
-                },
-                {
                     "ap1Name": "Geometry",
                     "ap2Name": "geometry",
                     "ap2Primary": true,
@@ -1016,14 +1009,14 @@
                     "ap2Name": "geometry1",
                     "ap2Primary": false,
                     "ap1ID": "f0e2e756-bd37-445d-bcf9-354bbcd9c0aa",
-                    "ap2ID": "ad0c135d-2b4d-46b6-8382-e16a87c00c7b"
+                    "ap2ID": "993e7944-a914-4c9b-970d-2dfe335e7259"
                 },
                 {
                     "ap1Name": "geometry",
-                    "ap2Name": "geometry1",
+                    "ap2Name": "number or geometry",
                     "ap2Primary": false,
                     "ap1ID": "f0e2e756-bd37-445d-bcf9-354bbcd9c0aa",
-                    "ap2ID": "993e7944-a914-4c9b-970d-2dfe335e7259"
+                    "ap2ID": "38e4e192-0119-43d0-831c-2f5f1b00829a"
                 },
                 {
                     "ap1Name": "geometry",
@@ -1039,7 +1032,13 @@
                     "ap1ID": "38cfca59-c3b0-43ca-8172-ec2207f83f8a",
                     "ap2ID": "92ce9643-7408-4366-a865-8816da89d06e"
                 },
-                null
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "geometry2",
+                    "ap2Primary": false,
+                    "ap1ID": "92ce9643-7408-4366-a865-8816da89d06e",
+                    "ap2ID": "993e7944-a914-4c9b-970d-2dfe335e7259"
+                }
             ],
             "fileTypeVersion": 1,
             "compiledBom": []

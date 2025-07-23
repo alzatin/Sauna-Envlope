@@ -58,8 +58,8 @@
                 {
                     "atomType": "Rectangle",
                     "name": "Rectangle",
-                    "x": 0.082010582010582,
-                    "y": 0.5041782729805014,
+                    "x": 0.09193121693121693,
+                    "y": 0.4944444444444444,
                     "uniqueID": "9d5fed5c-7e1f-4727-9f4d-a98fbf804851",
                     "ioValues": [
                         {
@@ -633,8 +633,8 @@
                 {
                     "atomType": "Molecule",
                     "name": "Corrugated Envlope Side",
-                    "x": 0.4232804232804233,
-                    "y": 0.664804469273743,
+                    "x": 0.4298941798941799,
+                    "y": 0.6527777777777778,
                     "uniqueID": "38cfca59-c3b0-43ca-8172-ec2207f83f8a",
                     "ioValues": [
                         {

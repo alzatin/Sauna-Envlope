@@ -6,7 +6,9 @@
 
 
 
- The shell walls are 60mm thick
+ We have a 1828.8mm circle at height 1000mm and two 2200mm circles at X 1709.6 and Y -65.4
+
+The shell walls are 60mm thick
 
 
 

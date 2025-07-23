@@ -20,8 +20,8 @@
         {
             "atomType": "Molecule",
             "name": "Envlope",
-            "x": 0.20304232804232802,
-            "y": 0.4666666666666667,
+            "x": 0.19642857142857142,
+            "y": 0.5027777777777778,
             "uniqueID": "0a40ea50-8d5e-49ae-bd3b-df35fa44f718",
             "ioValues": [],
             "description": "Molecules provide an organizational structure to contain atoms. Double click on a molecule to enter it. Use the up arrow in the upper right hand corner of the screen to go up one level.",
@@ -33,20 +33,37 @@
                     "x": 0.98,
                     "y": 0.5,
                     "uniqueID": "38e4e192-0119-43d0-831c-2f5f1b00829a",
-                    "ioValues": [
-                        {
-                            "name": "number or geometry",
-                            "ioValue": "f0e2e756-bd37-445d-bcf9-354bbcd9c0aa"
-                        }
-                    ],
+                    "ioValues": [],
                     "description": "Connect geometry here to make it available in the next level up. "
+                },
+                {
+                    "atomType": "Readme",
+                    "name": "README",
+                    "x": 0.884920634920635,
+                    "y": 0.8805555555555555,
+                    "uniqueID": "0190ddc3-d153-439a-9133-768fcab8963f",
+                    "ioValues": [],
+                    "description": "A place to put project notes. These will appear in the GitHub readme and in the description of molecules up the chain. Markdown is supported. ",
+                    "readmeText": "The shell walls are 60mm thick\n",
+                    "global": true
+                },
+                {
+                    "atomType": "Readme",
+                    "name": "README",
+                    "x": 0.2566137566137566,
+                    "y": 0.1861111111111111,
+                    "uniqueID": "7fee4fb2-2aed-4799-83b4-70c936a033e7",
+                    "ioValues": [],
+                    "description": "A place to put project notes. These will appear in the GitHub readme and in the description of molecules up the chain. Markdown is supported. ",
+                    "readmeText": "We have a 1828.8mm circle at height 1000mm and two 2200mm circles at X 1709.6 and Y -65.4",
+                    "global": true
                 },
                 {
                     "atomType": "Circle",
                     "name": "Circle",
-                    "x": 0.03439153439153439,
-                    "y": 0.19553072625698326,
-                    "uniqueID": "b945a683-e2f2-4b00-bc08-33266b762ef1",
+                    "x": 0.0496031746031746,
+                    "y": 0.37777777777777777,
+                    "uniqueID": "9eb1f549-b323-4879-8c78-ff9ccac4eb45",
                     "ioValues": [
                         {
                             "name": "diameter",
@@ -56,41 +73,23 @@
                     "description": "Creates a new circle."
                 },
                 {
-                    "atomType": "Rectangle",
-                    "name": "Rectangle",
-                    "x": 0.09193121693121693,
-                    "y": 0.4944444444444444,
-                    "uniqueID": "9d5fed5c-7e1f-4727-9f4d-a98fbf804851",
-                    "ioValues": [
-                        {
-                            "name": "x length",
-                            "ioValue": 1219.2
-                        },
-                        {
-                            "name": "y length",
-                            "ioValue": 1219.2
-                        }
-                    ],
-                    "description": "Creates a new rectangle."
-                },
-                {
                     "atomType": "Move",
                     "name": "Move",
-                    "x": 0.20634920634920637,
-                    "y": 0.4874651810584958,
-                    "uniqueID": "6c0e698d-4d46-43b9-8176-1fd205a3a5b1",
+                    "x": 0.12301587301587302,
+                    "y": 0.26111111111111107,
+                    "uniqueID": "129f4b62-13e6-4273-ad7d-36ad60cd6ce6",
                     "ioValues": [
                         {
                             "name": "geometry",
-                            "ioValue": "9d5fed5c-7e1f-4727-9f4d-a98fbf804851"
+                            "ioValue": "9eb1f549-b323-4879-8c78-ff9ccac4eb45"
                         },
                         {
                             "name": "xDist",
-                            "ioValue": -609.6
+                            "ioValue": 0
                         },
                         {
                             "name": "yDist",
-                            "ioValue": 0
+                            "ioValue": 1000
                         },
                         {
                             "name": "zDist",
@@ -98,767 +97,57 @@
                         }
                     ],
                     "description": "Moves a shape laterally in X, Y, Z."
-                },
-                {
-                    "atomType": "Move",
-                    "name": "Move",
-                    "x": 0.21428571428571427,
-                    "y": 0.3324022346368715,
-                    "uniqueID": "2cf1ed77-0dbb-40a4-9cec-79321eb0a741",
-                    "ioValues": [
-                        {
-                            "name": "geometry",
-                            "ioValue": "b93d6e33-59d0-47c7-a107-f6dc740dcac1"
-                        },
-                        {
-                            "name": "xDist",
-                            "ioValue": -1000
-                        },
-                        {
-                            "name": "yDist",
-                            "ioValue": 0
-                        },
-                        {
-                            "name": "zDist",
-                            "ioValue": 0
-                        }
-                    ],
-                    "description": "Moves a shape laterally in X, Y, Z."
-                },
-                {
-                    "atomType": "Extrude",
-                    "name": "Extrude",
-                    "x": 0.38095238095238093,
-                    "y": 0.34636871508379885,
-                    "uniqueID": "2c19804e-4586-440b-b5d7-b5581e882233",
-                    "ioValues": [
-                        {
-                            "name": "geometry",
-                            "ioValue": "6c0e698d-4d46-43b9-8176-1fd205a3a5b1"
-                        },
-                        {
-                            "name": "height",
-                            "ioValue": 2438.4
-                        }
-                    ],
-                    "description": "Extrudes a 2D shape. Input can be negitive. "
-                },
-                {
-                    "atomType": "Rotate",
-                    "name": "Rotate",
-                    "x": 0.9219576719576719,
-                    "y": 0.6555555555555556,
-                    "uniqueID": "11d19b4f-d6c5-43bd-b99e-73702fe0080b",
-                    "ioValues": [
-                        {
-                            "name": "geometry",
-                            "ioValue": "ad0c135d-2b4d-46b6-8382-e16a87c00c7b"
-                        },
-                        {
-                            "name": "x-axis degrees",
-                            "ioValue": 0
-                        },
-                        {
-                            "name": "y-axis degrees",
-                            "ioValue": 90
-                        },
-                        {
-                            "name": "z-axis degrees",
-                            "ioValue": 0
-                        }
-                    ],
-                    "description": "Rotates the input geometry around the X, Y, or Z axis. Inputs are degrees."
                 },
                 {
                     "atomType": "Circle",
                     "name": "Circle",
-                    "x": 0.13293650793650794,
-                    "y": 0.7150837988826816,
-                    "uniqueID": "ed61c4a5-ec71-45e5-b8ef-3e616d456baa",
+                    "x": 0.06679894179894179,
+                    "y": 0.861111111111111,
+                    "uniqueID": "1b5a3111-a6b0-4254-9afc-56fce87a1836",
                     "ioValues": [
                         {
                             "name": "diameter",
-                            "ioValue": 1708.8
+                            "ioValue": 2200
                         }
                     ],
                     "description": "Creates a new circle."
                 },
                 {
-                    "atomType": "Move",
-                    "name": "Move",
-                    "x": 0.1607142857142857,
-                    "y": 0.8770949720670391,
-                    "uniqueID": "61f4e7bb-7298-40c9-8247-fb9c4c502ab7",
-                    "ioValues": [
-                        {
-                            "name": "geometry",
-                            "ioValue": "2059b45d-e941-487a-9db0-a14113e2f082"
-                        },
-                        {
-                            "name": "xDist",
-                            "ioValue": -549.6
-                        },
-                        {
-                            "name": "yDist",
-                            "ioValue": 0
-                        },
-                        {
-                            "name": "zDist",
-                            "ioValue": 0
-                        }
-                    ],
-                    "description": "Moves a shape laterally in X, Y, Z."
-                },
-                {
-                    "atomType": "Move",
-                    "name": "Move",
-                    "x": 0.20767195767195767,
-                    "y": 0.7122905027932961,
-                    "uniqueID": "4c2851ac-f547-4d17-aa06-f8f5a9119304",
-                    "ioValues": [
-                        {
-                            "name": "geometry",
-                            "ioValue": "ed61c4a5-ec71-45e5-b8ef-3e616d456baa"
-                        },
-                        {
-                            "name": "xDist",
-                            "ioValue": -1000
-                        },
-                        {
-                            "name": "yDist",
-                            "ioValue": 0
-                        },
-                        {
-                            "name": "zDist",
-                            "ioValue": 0
-                        }
-                    ],
-                    "description": "Moves a shape laterally in X, Y, Z."
-                },
-                {
-                    "atomType": "Fusion",
-                    "name": "Fusion",
-                    "x": 0.30952380952380953,
-                    "y": 0.8547486033519552,
-                    "uniqueID": "e25854e9-23d2-4609-aa5b-66372aa0c879",
-                    "ioValues": [
-                        {
-                            "name": "Shape 2",
-                            "ioValue": "4c2851ac-f547-4d17-aa06-f8f5a9119304"
-                        },
-                        {
-                            "name": "Shape 3",
-                            "ioValue": "61f4e7bb-7298-40c9-8247-fb9c4c502ab7"
-                        }
-                    ],
-                    "description": "Pick between assembly and fusion to join input geometries. Assembly takes multiple shapes together into one, shapes higher in the inputs list will cut into shapes lower on the input list where they overlap. Fusion takes all shapes or sketches and fuses them permanently into a single shape",
-                    "unionType": "Fusion"
-                },
-                {
-                    "atomType": "Rectangle",
-                    "name": "Rectangle",
-                    "x": 0.08333333333333333,
-                    "y": 0.8913649025069639,
-                    "uniqueID": "2059b45d-e941-487a-9db0-a14113e2f082",
-                    "ioValues": [
-                        {
-                            "name": "x length",
-                            "ioValue": 1099.2
-                        },
-                        {
-                            "name": "y length",
-                            "ioValue": 1099.2
-                        }
-                    ],
-                    "description": "Creates a new rectangle."
-                },
-                {
-                    "atomType": "Move",
-                    "name": "Move",
-                    "x": 0.4391534391534392,
-                    "y": 0.9162011173184357,
-                    "uniqueID": "b8fda060-855e-4199-a336-7cf567025b92",
-                    "ioValues": [
-                        {
-                            "name": "geometry",
-                            "ioValue": "e25854e9-23d2-4609-aa5b-66372aa0c879"
-                        },
-                        {
-                            "name": "xDist",
-                            "ioValue": 0
-                        },
-                        {
-                            "name": "yDist",
-                            "ioValue": 0
-                        },
-                        {
-                            "name": "zDist",
-                            "ioValue": 60
-                        }
-                    ],
-                    "description": "Moves a shape laterally in X, Y, Z."
-                },
-                {
                     "atomType": "Extrude",
                     "name": "Extrude",
-                    "x": 0.7791005291005292,
-                    "y": 0.9022346368715084,
-                    "uniqueID": "c329bf77-cb23-4c4f-be7b-c0dc961e20f3",
+                    "x": 0.21230158730158732,
+                    "y": 0.2972222222222222,
+                    "uniqueID": "d152ddb2-5b67-42c1-b929-3f2b201106fa",
                     "ioValues": [
                         {
                             "name": "geometry",
-                            "ioValue": "b8fda060-855e-4199-a336-7cf567025b92"
+                            "ioValue": "129f4b62-13e6-4273-ad7d-36ad60cd6ce6"
                         },
                         {
                             "name": "height",
-                            "ioValue": 2318.4
+                            "ioValue": 100
                         }
                     ],
                     "description": "Extrudes a 2D shape. Input can be negitive. "
                 },
                 {
-                    "atomType": "Difference",
-                    "name": "Difference",
-                    "x": 0.8353174603174603,
-                    "y": 0.7055555555555556,
-                    "uniqueID": "ad0c135d-2b4d-46b6-8382-e16a87c00c7b",
-                    "ioValues": [
-                        {
-                            "name": "geometry1",
-                            "ioValue": ""
-                        },
-                        {
-                            "name": "geometry2",
-                            "ioValue": "c329bf77-cb23-4c4f-be7b-c0dc961e20f3"
-                        }
-                    ],
-                    "description": "Subtracts shape two from shape one."
-                },
-                {
-                    "atomType": "Color",
-                    "name": "Color",
-                    "x": 0.9517195767195767,
-                    "y": 0.6666666666666666,
-                    "uniqueID": "c1f457f2-6c8f-406a-9365-c5b235190d48",
-                    "ioValues": [
-                        {
-                            "name": "geometry",
-                            "ioValue": "11d19b4f-d6c5-43bd-b99e-73702fe0080b"
-                        }
-                    ],
-                    "description": "Changes the color of the shape.",
-                    "selectedColorIndex": 9
-                },
-                {
-                    "atomType": "Molecule",
-                    "name": "Corrugated Envlope",
-                    "x": 0.47817460317460314,
-                    "y": 0.1361111111111111,
-                    "uniqueID": "ec423a44-39c2-4463-b5f7-25822f70c404",
-                    "ioValues": [
-                        {
-                            "name": "Wood Thickness",
-                            "ioValue": 2438.4
-                        }
-                    ],
-                    "description": "Molecules provide an organizational structure to contain atoms. Double click on a molecule to enter it. Use the up arrow in the upper right hand corner of the screen to go up one level.",
-                    "topLevel": false,
-                    "allAtoms": [
-                        {
-                            "atomType": "Output",
-                            "name": "Output",
-                            "x": 0.98,
-                            "y": 0.5,
-                            "uniqueID": 1746922983948,
-                            "ioValues": [
-                                {
-                                    "name": "number or geometry",
-                                    "ioValue": "0ea23283-efb4-42db-95d2-12ba04b47c02"
-                                }
-                            ],
-                            "description": "Connect geometry here to make it available in the next level up. "
-                        },
-                        {
-                            "atomType": "Input",
-                            "name": "Wood Thickness",
-                            "x": 0.029699999999999997,
-                            "y": 0.5793871866295265,
-                            "uniqueID": 1746925948442,
-                            "ioValues": [],
-                            "description": "Adds an input to the parent molecule. If the parent molecule is the top level of the project then the input will be available when the project is shared or imported into another project. Name is editable",
-                            "type": "number"
-                        },
-                        {
-                            "atomType": "Constant",
-                            "name": "Number of bumps",
-                            "x": 0.21164021164021166,
-                            "y": 0.298050139275766,
-                            "uniqueID": 1746927742128,
-                            "ioValues": [],
-                            "description": "Defines a mathematical constant.",
-                            "value": 79
-                        },
-                        {
-                            "atomType": "GitHubMolecule",
-                            "name": "Corrugated-Roofing-Circle",
-                            "x": 0.39351851851851855,
-                            "y": 0.3638888888888889,
-                            "uniqueID": "0ea23283-efb4-42db-95d2-12ba04b47c02",
-                            "ioValues": [
-                                {
-                                    "name": "Number of Bumps",
-                                    "ioValue": 79
-                                },
-                                {
-                                    "name": "Thickness",
-                                    "ioValue": 2438.4
-                                }
-                            ],
-                            "description": "Molecules provide an organizational structure to contain atoms. Double click on a molecule to enter it. Use the up arrow in the upper right hand corner of the screen to go up one level.",
-                            "topLevel": false,
-                            "allAtoms": [
-                                {
-                                    "atomType": "Output",
-                                    "name": "Output",
-                                    "x": 0.98,
-                                    "y": 0.5,
-                                    "uniqueID": "34424395-6e85-48b1-8e4a-6f4eb5d23e22",
-                                    "ioValues": [
-                                        {
-                                            "name": "number or geometry",
-                                            "ioValue": "0ea5a829-0678-4375-9453-03e3c109e8c3"
-                                        }
-                                    ],
-                                    "description": "Connect geometry here to make it available in the next level up. "
-                                },
-                                {
-                                    "atomType": "Code",
-                                    "name": "Code",
-                                    "x": 0.4503968253968254,
-                                    "y": 0.3687150837988827,
-                                    "uniqueID": "0ea5a829-0678-4375-9453-03e3c109e8c3",
-                                    "ioValues": [
-                                        {
-                                            "name": "thickness",
-                                            "ioValue": 2438.4
-                                        },
-                                        {
-                                            "name": "numBumps",
-                                            "ioValue": 79
-                                        }
-                                    ],
-                                    "description": "Defines a Replicad code block.",
-                                    "codeVersion": 1,
-                                    "code": " \n      //Inputs:[thickness, numBumps]\n      //This defines the molecules inputs and creates variables with the same names which can be referenced in the code\n      \n      //Define a circle\n       const circleFunction = (t) => {\n\n         \n       const period = 72;\n       const circumference = numBumps * period;\n       const baseRadius = circumference / (2 * Math.PI);\n       console.log(\"Base Radius: \" + baseRadius);\n\n        t = t === 1 ? 0: t\n      \n        const length = Math.PI*2*baseRadius;\n        const amplitude = 19 / 2;\n        const sinX = t * length; // Scale  to the total length (circumference)\n        const sinY = amplitude * Math.sin((2 * Math.PI * sinX) / period)\n      \n        const angle = 2 * Math.PI * t;\n      \n        const radius = baseRadius + sinY;\n      \n        const circleX = radius * Math.cos(angle);\n        const circleY = radius * Math.sin(angle);\n      \n        const x = circleX ;\n        const y = circleY;\n      \n      \n        return [x, y];\n      };\n\n      // Step 3: Create the sinewave shape\n      const points = Math.max(200, 6*numBumps);\n      const sinewaveShape = replicad.drawParametricFunction(circleFunction, { pointsCount: points });\n  \n    \n      // Return the combined shape\n      let createdShape =  sinewaveShape.sketchOnPlane().extrude(thickness);\n\n      //This is the plane we are going to put our new shape on\n      const newPlane = new replicad.Plane().pivot(0, 'Y');\n      \n      //For our new geometry we need to define the tags, color, plane, etc\n      let shape2 = {\n          geometry: [createdShape], \n          tags: [\"aTag\"],\n          color: '#A3CE5B',\n          plane: newPlane,\n          bom: []\n      }\n      \n      //Then we can return our created shape in just the same way\n      return shape2\n      \n      \n          /**\n          To Use the Code Atom, enter your inputs to the input list a.e Inputs:[shape, height]\n          If your input is connected to another atom with a replicad geometry you can access its geometry by looking up its ID in your library. a.e library[Input1].geometry[0] \n          Use any replicad available methods to modify your geometry. Learn more about all of the available methods at \n          https://replicad.xyz/docs/introapp/UserGuide.html \n          Return a replicad object that includes geometry, color, tags and plane. \n      \n      \n          Example Code Atom:\n      \n            Inputs:[shape, x];\n      \n            let finalShape = library[shape].geometry[0].clone.translate[x,0,0]\n      \n            return {geometry: finalShape, color: library[shape].color, plane: library[shape].plane, tags: library[shape].tags }\n      \n            - See more examples at _______ \n      \n      \n          */\n      "
-                                },
-                                {
-                                    "atomType": "Input",
-                                    "name": "Number of Bumps",
-                                    "x": 0.029699999999999997,
-                                    "y": 0.42061281337047357,
-                                    "uniqueID": "b1e23204-3872-4d50-a023-64389e616a70",
-                                    "ioValues": [],
-                                    "description": "Adds an input to the parent molecule. If the parent molecule is the top level of the project then the input will be available when the project is shared or imported into another project. Name is editable",
-                                    "type": "number"
-                                },
-                                {
-                                    "atomType": "Input",
-                                    "name": "Thickness",
-                                    "x": 0.029699999999999997,
-                                    "y": 0.67966573816156,
-                                    "uniqueID": "f76ef0a5-ea0f-4063-97cc-533d531ee3b7",
-                                    "ioValues": [],
-                                    "description": "Adds an input to the parent molecule. If the parent molecule is the top level of the project then the input will be available when the project is shared or imported into another project. Name is editable",
-                                    "type": "number"
-                                }
-                            ],
-                            "allConnectors": [
-                                {
-                                    "ap1Name": "geometry",
-                                    "ap2Name": "number or geometry",
-                                    "ap2Primary": false,
-                                    "ap1ID": "0ea5a829-0678-4375-9453-03e3c109e8c3",
-                                    "ap2ID": "34424395-6e85-48b1-8e4a-6f4eb5d23e22"
-                                },
-                                {
-                                    "ap1Name": "number or geometry",
-                                    "ap2Name": "numBumps",
-                                    "ap2Primary": false,
-                                    "ap1ID": "b1e23204-3872-4d50-a023-64389e616a70",
-                                    "ap2ID": "0ea5a829-0678-4375-9453-03e3c109e8c3"
-                                },
-                                {
-                                    "ap1Name": "number or geometry",
-                                    "ap2Name": "thickness",
-                                    "ap2Primary": false,
-                                    "ap1ID": "f76ef0a5-ea0f-4063-97cc-533d531ee3b7",
-                                    "ap2ID": "0ea5a829-0678-4375-9453-03e3c109e8c3"
-                                }
-                            ],
-                            "parentRepo": {
-                                "privateRepo": false,
-                                "repoName": "Corrugated-Roofing-Circle",
-                                "dateCreated": "2025-05-11T00:25:44Z",
-                                "readMe": "https://raw.githubusercontent.com/BarbourSmith/Corrugated-Roofing-Circle/master/README.md?sanitize=true",
-                                "yyyy": 2025,
-                                "topMoleculeID": 1746923144518,
-                                "githubMoleculesUsed": [],
-                                "html_url": "https://github.com/BarbourSmith/Corrugated-Roofing-Circle",
-                                "topics": [],
-                                "parentRepo": null,
-                                "forks": 0,
-                                "dateModified": "739382",
-                                "ranking": 0,
-                                "searchField": "corrugated-roofing-circle barboursmith generates a circle with a patern cut into it to match corrugated roofing pannels ",
-                                "owner": "BarbourSmith",
-                                "description": "Generates a circle with a patern cut into it to match corrugated roofing pannels",
-                                "contentURL": "https://raw.githubusercontent.com/BarbourSmith/Corrugated-Roofing-Circle/master/project.abundance?sanitize=true",
-                                "svgURL": "https://raw.githubusercontent.com/BarbourSmith/Corrugated-Roofing-Circle/master/project.svg?sanitize=true"
-                            },
-                            "unitsKey": "MM",
-                            "fileTypeVersion": 1,
-                            "compiledBom": []
-                        }
-                    ],
-                    "allConnectors": [
-                        {
-                            "ap1Name": "number or geometry",
-                            "ap2Name": "Thickness",
-                            "ap2Primary": false,
-                            "ap1ID": 1746925948442,
-                            "ap2ID": "0ea23283-efb4-42db-95d2-12ba04b47c02"
-                        },
-                        {
-                            "ap1Name": "number",
-                            "ap2Name": "Number of Bumps",
-                            "ap2Primary": false,
-                            "ap1ID": 1746927742128,
-                            "ap2ID": "0ea23283-efb4-42db-95d2-12ba04b47c02"
-                        },
-                        {
-                            "ap1Name": "Geometry",
-                            "ap2Name": "number or geometry",
-                            "ap2Primary": false,
-                            "ap1ID": "0ea23283-efb4-42db-95d2-12ba04b47c02",
-                            "ap2ID": 1746922983948
-                        }
-                    ],
-                    "fileTypeVersion": 1,
-                    "compiledBom": []
-                },
-                {
-                    "atomType": "Constant",
-                    "name": "Length",
-                    "x": 0.32671957671957674,
-                    "y": 0.14444444444444443,
-                    "uniqueID": "af6dcbad-781a-4ef5-9e0d-1a2f3d0ccdb1",
-                    "ioValues": [],
-                    "description": "Defines a mathematical constant.",
-                    "value": 2438.4
-                },
-                {
                     "atomType": "Move",
                     "name": "Move",
-                    "x": 0.6732804232804233,
-                    "y": 0.15555555555555556,
-                    "uniqueID": "d2a79cd5-2b3e-4e32-aab8-a200c5e56a0e",
+                    "x": 0.15079365079365079,
+                    "y": 0.663888888888889,
+                    "uniqueID": "350eaedb-f40f-431f-bb89-b42ac29f26f8",
                     "ioValues": [
                         {
                             "name": "geometry",
-                            "ioValue": "ec423a44-39c2-4463-b5f7-25822f70c404"
+                            "ioValue": "1b5a3111-a6b0-4254-9afc-56fce87a1836"
                         },
                         {
                             "name": "xDist",
-                            "ioValue": -1000
+                            "ioValue": 1709.6
                         },
                         {
                             "name": "yDist",
-                            "ioValue": 0
-                        },
-                        {
-                            "name": "zDist",
-                            "ioValue": 0
-                        }
-                    ],
-                    "description": "Moves a shape laterally in X, Y, Z."
-                },
-                {
-                    "atomType": "Fusion",
-                    "name": "Fusion",
-                    "x": 0.7638888888888888,
-                    "y": 0.4916666666666667,
-                    "uniqueID": "f0e2e756-bd37-445d-bcf9-354bbcd9c0aa",
-                    "ioValues": [
-                        {
-                            "name": "Shape 1",
-                            "ioValue": "2c19804e-4586-440b-b5d7-b5581e882233"
-                        },
-                        {
-                            "name": "Shape 5",
-                            "ioValue": "d2a79cd5-2b3e-4e32-aab8-a200c5e56a0e"
-                        }
-                    ],
-                    "description": "Pick between assembly and fusion to join input geometries. Assembly takes multiple shapes together into one, shapes higher in the inputs list will cut into shapes lower on the input list where they overlap. Fusion takes all shapes or sketches and fuses them permanently into a single shape",
-                    "unionType": "Fusion"
-                },
-                {
-                    "atomType": "Extrude",
-                    "name": "Extrude",
-                    "x": 0.12566137566137567,
-                    "y": 0.2430167597765363,
-                    "uniqueID": "b93d6e33-59d0-47c7-a107-f6dc740dcac1",
-                    "ioValues": [
-                        {
-                            "name": "geometry",
-                            "ioValue": "b945a683-e2f2-4b00-bc08-33266b762ef1"
-                        },
-                        {
-                            "name": "height",
-                            "ioValue": 2438.4
-                        }
-                    ],
-                    "description": "Extrudes a 2D shape. Input can be negitive. "
-                },
-                {
-                    "atomType": "Readme",
-                    "name": "README",
-                    "x": 0.8703703703703702,
-                    "y": 0.8659217877094972,
-                    "uniqueID": "0190ddc3-d153-439a-9133-768fcab8963f",
-                    "ioValues": [],
-                    "description": "A place to put project notes. These will appear in the GitHub readme and in the description of molecules up the chain. Markdown is supported. ",
-                    "readmeText": "The shell walls are 60mm thick\n",
-                    "global": true
-                },
-                {
-                    "atomType": "Molecule",
-                    "name": "Corrugated Envlope Side",
-                    "x": 0.4298941798941799,
-                    "y": 0.6527777777777778,
-                    "uniqueID": "38cfca59-c3b0-43ca-8172-ec2207f83f8a",
-                    "ioValues": [
-                        {
-                            "name": "Wood Thickness",
-                            "ioValue": 2438.4
-                        }
-                    ],
-                    "description": "Molecules provide an organizational structure to contain atoms. Double click on a molecule to enter it. Use the up arrow in the upper right hand corner of the screen to go up one level.",
-                    "topLevel": false,
-                    "allAtoms": [
-                        {
-                            "atomType": "Output",
-                            "name": "Output",
-                            "x": 0.98,
-                            "y": 0.5,
-                            "uniqueID": "d09fcee5-7c4e-44c6-8546-5c0b9cc1b5f1",
-                            "ioValues": [
-                                {
-                                    "name": "number or geometry",
-                                    "ioValue": "d68992b9-d07d-4cee-8ce9-4a84778d86ce"
-                                }
-                            ],
-                            "description": "Connect geometry here to make it available in the next level up. "
-                        },
-                        {
-                            "atomType": "Input",
-                            "name": "Wood Thickness",
-                            "x": 0.029699999999999997,
-                            "y": 0.5793871866295265,
-                            "uniqueID": "a3f6241a-2542-430a-959d-37029ac4a99d",
-                            "ioValues": [],
-                            "description": "Adds an input to the parent molecule. If the parent molecule is the top level of the project then the input will be available when the project is shared or imported into another project. Name is editable",
-                            "type": "number"
-                        },
-                        {
-                            "atomType": "Constant",
-                            "name": "Number of bumps",
-                            "x": 0.21362433862433863,
-                            "y": 0.3016759776536313,
-                            "uniqueID": "8fa2bdd9-efab-4862-a259-6bed71fe6352",
-                            "ioValues": [],
-                            "description": "Defines a mathematical constant.",
-                            "value": 110
-                        },
-                        {
-                            "atomType": "GitHubMolecule",
-                            "name": "Corrugated-Roofing-Circle",
-                            "x": 0.3941798941798942,
-                            "y": 0.34636871508379885,
-                            "uniqueID": "d68992b9-d07d-4cee-8ce9-4a84778d86ce",
-                            "ioValues": [
-                                {
-                                    "name": "Number of Bumps",
-                                    "ioValue": 110
-                                },
-                                {
-                                    "name": "Thickness",
-                                    "ioValue": 2438.4
-                                }
-                            ],
-                            "description": "Molecules provide an organizational structure to contain atoms. Double click on a molecule to enter it. Use the up arrow in the upper right hand corner of the screen to go up one level.",
-                            "topLevel": false,
-                            "allAtoms": [
-                                {
-                                    "atomType": "Output",
-                                    "name": "Output",
-                                    "x": 0.98,
-                                    "y": 0.5,
-                                    "uniqueID": "34424395-6e85-48b1-8e4a-6f4eb5d23e22",
-                                    "ioValues": [
-                                        {
-                                            "name": "number or geometry",
-                                            "ioValue": "0ea5a829-0678-4375-9453-03e3c109e8c3"
-                                        }
-                                    ],
-                                    "description": "Connect geometry here to make it available in the next level up. "
-                                },
-                                {
-                                    "atomType": "Code",
-                                    "name": "Code",
-                                    "x": 0.4503968253968254,
-                                    "y": 0.3687150837988827,
-                                    "uniqueID": "0ea5a829-0678-4375-9453-03e3c109e8c3",
-                                    "ioValues": [
-                                        {
-                                            "name": "thickness",
-                                            "ioValue": 2438.4
-                                        },
-                                        {
-                                            "name": "numBumps",
-                                            "ioValue": 110
-                                        }
-                                    ],
-                                    "description": "Defines a Replicad code block.",
-                                    "codeVersion": 1,
-                                    "code": " \n      //Inputs:[thickness, numBumps]\n      //This defines the molecules inputs and creates variables with the same names which can be referenced in the code\n      \n      //Define a circle\n       const circleFunction = (t) => {\n\n         \n       const period = 72;\n       const circumference = numBumps * period;\n       const baseRadius = circumference / (2 * Math.PI);\n       console.log(\"Base Radius: \" + baseRadius);\n\n        t = t === 1 ? 0: t\n      \n        const length = Math.PI*2*baseRadius;\n        const amplitude = 19 / 2;\n        const sinX = t * length; // Scale  to the total length (circumference)\n        const sinY = amplitude * Math.sin((2 * Math.PI * sinX) / period)\n      \n        const angle = 2 * Math.PI * t;\n      \n        const radius = baseRadius + sinY;\n      \n        const circleX = radius * Math.cos(angle);\n        const circleY = radius * Math.sin(angle);\n      \n        const x = circleX ;\n        const y = circleY;\n      \n      \n        return [x, y];\n      };\n\n      // Step 3: Create the sinewave shape\n      const points = Math.max(200, 6*numBumps);\n      const sinewaveShape = replicad.drawParametricFunction(circleFunction, { pointsCount: points });\n  \n    \n      // Return the combined shape\n      let createdShape =  sinewaveShape.sketchOnPlane().extrude(thickness);\n\n      //This is the plane we are going to put our new shape on\n      const newPlane = new replicad.Plane().pivot(0, 'Y');\n      \n      //For our new geometry we need to define the tags, color, plane, etc\n      let shape2 = {\n          geometry: [createdShape], \n          tags: [\"aTag\"],\n          color: '#A3CE5B',\n          plane: newPlane,\n          bom: []\n      }\n      \n      //Then we can return our created shape in just the same way\n      return shape2\n      \n      \n          /**\n          To Use the Code Atom, enter your inputs to the input list a.e Inputs:[shape, height]\n          If your input is connected to another atom with a replicad geometry you can access its geometry by looking up its ID in your library. a.e library[Input1].geometry[0] \n          Use any replicad available methods to modify your geometry. Learn more about all of the available methods at \n          https://replicad.xyz/docs/introapp/UserGuide.html \n          Return a replicad object that includes geometry, color, tags and plane. \n      \n      \n          Example Code Atom:\n      \n            Inputs:[shape, x];\n      \n            let finalShape = library[shape].geometry[0].clone.translate[x,0,0]\n      \n            return {geometry: finalShape, color: library[shape].color, plane: library[shape].plane, tags: library[shape].tags }\n      \n            - See more examples at _______ \n      \n      \n          */\n      "
-                                },
-                                {
-                                    "atomType": "Input",
-                                    "name": "Number of Bumps",
-                                    "x": 0.029699999999999997,
-                                    "y": 0.42061281337047357,
-                                    "uniqueID": "b1e23204-3872-4d50-a023-64389e616a70",
-                                    "ioValues": [],
-                                    "description": "Adds an input to the parent molecule. If the parent molecule is the top level of the project then the input will be available when the project is shared or imported into another project. Name is editable",
-                                    "type": "number"
-                                },
-                                {
-                                    "atomType": "Input",
-                                    "name": "Thickness",
-                                    "x": 0.029699999999999997,
-                                    "y": 0.67966573816156,
-                                    "uniqueID": "f76ef0a5-ea0f-4063-97cc-533d531ee3b7",
-                                    "ioValues": [],
-                                    "description": "Adds an input to the parent molecule. If the parent molecule is the top level of the project then the input will be available when the project is shared or imported into another project. Name is editable",
-                                    "type": "number"
-                                }
-                            ],
-                            "allConnectors": [
-                                {
-                                    "ap1Name": "geometry",
-                                    "ap2Name": "number or geometry",
-                                    "ap2Primary": false,
-                                    "ap1ID": "0ea5a829-0678-4375-9453-03e3c109e8c3",
-                                    "ap2ID": "34424395-6e85-48b1-8e4a-6f4eb5d23e22"
-                                },
-                                {
-                                    "ap1Name": "number or geometry",
-                                    "ap2Name": "numBumps",
-                                    "ap2Primary": false,
-                                    "ap1ID": "b1e23204-3872-4d50-a023-64389e616a70",
-                                    "ap2ID": "0ea5a829-0678-4375-9453-03e3c109e8c3"
-                                },
-                                {
-                                    "ap1Name": "number or geometry",
-                                    "ap2Name": "thickness",
-                                    "ap2Primary": false,
-                                    "ap1ID": "f76ef0a5-ea0f-4063-97cc-533d531ee3b7",
-                                    "ap2ID": "0ea5a829-0678-4375-9453-03e3c109e8c3"
-                                }
-                            ],
-                            "parentRepo": {
-                                "privateRepo": false,
-                                "repoName": "Corrugated-Roofing-Circle",
-                                "dateCreated": "2025-05-11T00:25:44Z",
-                                "readMe": "https://raw.githubusercontent.com/BarbourSmith/Corrugated-Roofing-Circle/master/README.md?sanitize=true",
-                                "yyyy": 2025,
-                                "topMoleculeID": 1746923144518,
-                                "githubMoleculesUsed": [],
-                                "html_url": "https://github.com/BarbourSmith/Corrugated-Roofing-Circle",
-                                "topics": [],
-                                "parentRepo": null,
-                                "forks": 0,
-                                "dateModified": "739382",
-                                "ranking": 0,
-                                "searchField": "corrugated-roofing-circle barboursmith generates a circle with a patern cut into it to match corrugated roofing pannels ",
-                                "owner": "BarbourSmith",
-                                "description": "Generates a circle with a patern cut into it to match corrugated roofing pannels",
-                                "contentURL": "https://raw.githubusercontent.com/BarbourSmith/Corrugated-Roofing-Circle/master/project.abundance?sanitize=true",
-                                "svgURL": "https://raw.githubusercontent.com/BarbourSmith/Corrugated-Roofing-Circle/master/project.svg?sanitize=true"
-                            },
-                            "unitsKey": "MM",
-                            "fileTypeVersion": 1,
-                            "compiledBom": []
-                        },
-                        {
-                            "atomType": "Circle",
-                            "name": "Circle",
-                            "x": 0.31547619047619047,
-                            "y": 0.7988826815642459,
-                            "uniqueID": "463fbc19-ea5f-40e2-9ca0-986e43083610",
-                            "ioValues": [
-                                {
-                                    "name": "diameter",
-                                    "ioValue": 2200
-                                }
-                            ],
-                            "description": "Creates a new circle."
-                        }
-                    ],
-                    "allConnectors": [
-                        {
-                            "ap1Name": "number or geometry",
-                            "ap2Name": "Thickness",
-                            "ap2Primary": false,
-                            "ap1ID": "a3f6241a-2542-430a-959d-37029ac4a99d",
-                            "ap2ID": "d68992b9-d07d-4cee-8ce9-4a84778d86ce"
-                        },
-                        {
-                            "ap1Name": "number",
-                            "ap2Name": "Number of Bumps",
-                            "ap2Primary": false,
-                            "ap1ID": "8fa2bdd9-efab-4862-a259-6bed71fe6352",
-                            "ap2ID": "d68992b9-d07d-4cee-8ce9-4a84778d86ce"
-                        },
-                        {
-                            "ap1Name": "Geometry",
-                            "ap2Name": "number or geometry",
-                            "ap2Primary": false,
-                            "ap1ID": "d68992b9-d07d-4cee-8ce9-4a84778d86ce",
-                            "ap2ID": "d09fcee5-7c4e-44c6-8546-5c0b9cc1b5f1"
-                        }
-                    ],
-                    "fileTypeVersion": 1,
-                    "compiledBom": []
-                },
-                {
-                    "atomType": "Move",
-                    "name": "Move",
-                    "x": 0.5853174603174603,
-                    "y": 0.6536312849162011,
-                    "uniqueID": "92ce9643-7408-4366-a865-8816da89d06e",
-                    "ioValues": [
-                        {
-                            "name": "geometry",
-                            "ioValue": "38cfca59-c3b0-43ca-8172-ec2207f83f8a"
-                        },
-                        {
-                            "name": "xDist",
-                            "ioValue": 70
-                        },
-                        {
-                            "name": "yDist",
-                            "ioValue": -1700
+                            "ioValue": -65.4
                         },
                         {
                             "name": "zDist",
@@ -873,134 +162,22 @@
                     "ap1Name": "geometry",
                     "ap2Name": "geometry",
                     "ap2Primary": true,
-                    "ap1ID": "b945a683-e2f2-4b00-bc08-33266b762ef1",
-                    "ap2ID": "b93d6e33-59d0-47c7-a107-f6dc740dcac1"
+                    "ap1ID": "9eb1f549-b323-4879-8c78-ff9ccac4eb45",
+                    "ap2ID": "129f4b62-13e6-4273-ad7d-36ad60cd6ce6"
                 },
                 {
                     "ap1Name": "geometry",
                     "ap2Name": "geometry",
                     "ap2Primary": true,
-                    "ap1ID": "9d5fed5c-7e1f-4727-9f4d-a98fbf804851",
-                    "ap2ID": "6c0e698d-4d46-43b9-8176-1fd205a3a5b1"
+                    "ap1ID": "129f4b62-13e6-4273-ad7d-36ad60cd6ce6",
+                    "ap2ID": "d152ddb2-5b67-42c1-b929-3f2b201106fa"
                 },
                 {
                     "ap1Name": "geometry",
                     "ap2Name": "geometry",
                     "ap2Primary": true,
-                    "ap1ID": "6c0e698d-4d46-43b9-8176-1fd205a3a5b1",
-                    "ap2ID": "2c19804e-4586-440b-b5d7-b5581e882233"
-                },
-                {
-                    "ap1Name": "geometry",
-                    "ap2Name": "Shape 1",
-                    "ap2Primary": false,
-                    "ap1ID": "2c19804e-4586-440b-b5d7-b5581e882233",
-                    "ap2ID": "f0e2e756-bd37-445d-bcf9-354bbcd9c0aa"
-                },
-                {
-                    "ap1Name": "geometry",
-                    "ap2Name": "geometry",
-                    "ap2Primary": true,
-                    "ap1ID": "11d19b4f-d6c5-43bd-b99e-73702fe0080b",
-                    "ap2ID": "c1f457f2-6c8f-406a-9365-c5b235190d48"
-                },
-                {
-                    "ap1Name": "geometry",
-                    "ap2Name": "geometry",
-                    "ap2Primary": true,
-                    "ap1ID": "ed61c4a5-ec71-45e5-b8ef-3e616d456baa",
-                    "ap2ID": "4c2851ac-f547-4d17-aa06-f8f5a9119304"
-                },
-                {
-                    "ap1Name": "geometry",
-                    "ap2Name": "Shape 3",
-                    "ap2Primary": false,
-                    "ap1ID": "61f4e7bb-7298-40c9-8247-fb9c4c502ab7",
-                    "ap2ID": "e25854e9-23d2-4609-aa5b-66372aa0c879"
-                },
-                {
-                    "ap1Name": "geometry",
-                    "ap2Name": "Shape 2",
-                    "ap2Primary": false,
-                    "ap1ID": "4c2851ac-f547-4d17-aa06-f8f5a9119304",
-                    "ap2ID": "e25854e9-23d2-4609-aa5b-66372aa0c879"
-                },
-                {
-                    "ap1Name": "geometry",
-                    "ap2Name": "geometry",
-                    "ap2Primary": true,
-                    "ap1ID": "e25854e9-23d2-4609-aa5b-66372aa0c879",
-                    "ap2ID": "b8fda060-855e-4199-a336-7cf567025b92"
-                },
-                {
-                    "ap1Name": "geometry",
-                    "ap2Name": "geometry",
-                    "ap2Primary": true,
-                    "ap1ID": "2059b45d-e941-487a-9db0-a14113e2f082",
-                    "ap2ID": "61f4e7bb-7298-40c9-8247-fb9c4c502ab7"
-                },
-                {
-                    "ap1Name": "geometry",
-                    "ap2Name": "geometry",
-                    "ap2Primary": true,
-                    "ap1ID": "b8fda060-855e-4199-a336-7cf567025b92",
-                    "ap2ID": "c329bf77-cb23-4c4f-be7b-c0dc961e20f3"
-                },
-                {
-                    "ap1Name": "geometry",
-                    "ap2Name": "geometry2",
-                    "ap2Primary": false,
-                    "ap1ID": "c329bf77-cb23-4c4f-be7b-c0dc961e20f3",
-                    "ap2ID": "ad0c135d-2b4d-46b6-8382-e16a87c00c7b"
-                },
-                {
-                    "ap1Name": "geometry",
-                    "ap2Name": "geometry",
-                    "ap2Primary": true,
-                    "ap1ID": "ad0c135d-2b4d-46b6-8382-e16a87c00c7b",
-                    "ap2ID": "11d19b4f-d6c5-43bd-b99e-73702fe0080b"
-                },
-                {
-                    "ap1Name": "Geometry",
-                    "ap2Name": "geometry",
-                    "ap2Primary": true,
-                    "ap1ID": "ec423a44-39c2-4463-b5f7-25822f70c404",
-                    "ap2ID": "d2a79cd5-2b3e-4e32-aab8-a200c5e56a0e"
-                },
-                {
-                    "ap1Name": "number",
-                    "ap2Name": "Wood Thickness",
-                    "ap2Primary": false,
-                    "ap1ID": "af6dcbad-781a-4ef5-9e0d-1a2f3d0ccdb1",
-                    "ap2ID": "ec423a44-39c2-4463-b5f7-25822f70c404"
-                },
-                {
-                    "ap1Name": "geometry",
-                    "ap2Name": "Shape 5",
-                    "ap2Primary": false,
-                    "ap1ID": "d2a79cd5-2b3e-4e32-aab8-a200c5e56a0e",
-                    "ap2ID": "f0e2e756-bd37-445d-bcf9-354bbcd9c0aa"
-                },
-                {
-                    "ap1Name": "geometry",
-                    "ap2Name": "number or geometry",
-                    "ap2Primary": false,
-                    "ap1ID": "f0e2e756-bd37-445d-bcf9-354bbcd9c0aa",
-                    "ap2ID": "38e4e192-0119-43d0-831c-2f5f1b00829a"
-                },
-                {
-                    "ap1Name": "geometry",
-                    "ap2Name": "geometry",
-                    "ap2Primary": true,
-                    "ap1ID": "b93d6e33-59d0-47c7-a107-f6dc740dcac1",
-                    "ap2ID": "2cf1ed77-0dbb-40a4-9cec-79321eb0a741"
-                },
-                {
-                    "ap1Name": "Geometry",
-                    "ap2Name": "geometry",
-                    "ap2Primary": true,
-                    "ap1ID": "38cfca59-c3b0-43ca-8172-ec2207f83f8a",
-                    "ap2ID": "92ce9643-7408-4366-a865-8816da89d06e"
+                    "ap1ID": "1b5a3111-a6b0-4254-9afc-56fce87a1836",
+                    "ap2ID": "350eaedb-f40f-431f-bb89-b42ac29f26f8"
                 }
             ],
             "fileTypeVersion": 1,

@@ -703,7 +703,7 @@
                     "atomType": "Input",
                     "name": "Geometry",
                     "x": 0.029699999999999997,
-                    "y": 0.5335195530726257,
+                    "y": 0.32869080779944293,
                     "uniqueID": "ad052449-538b-46c6-a38a-18aa4aabd29d",
                     "ioValues": [],
                     "description": "Adds an input to the parent molecule. If the parent molecule is the top level of the project then the input will be available when the project is shared or imported into another project. Name is editable",
@@ -713,7 +713,7 @@
                     "atomType": "Input",
                     "name": "Wood Thickness",
                     "x": 0.029699999999999997,
-                    "y": 0.3044692737430168,
+                    "y": 0.7103064066852367,
                     "uniqueID": "8ad8982f-949e-4558-82fa-f2c759283287",
                     "ioValues": [],
                     "description": "Adds an input to the parent molecule. If the parent molecule is the top level of the project then the input will be available when the project is shared or imported into another project. Name is editable",
@@ -902,8 +902,8 @@
                         {
                             "atomType": "Intersection",
                             "name": "Intersection",
-                            "x": 0.3392857142857143,
-                            "y": 0.7353760445682451,
+                            "x": 0.3220899470899471,
+                            "y": 0.7910863509749304,
                             "uniqueID": 1739774163691,
                             "ioValues": [
                                 {
@@ -2636,7 +2636,7 @@
                         },
                         {
                             "name": "Shape 3",
-                            "ioValue": "6e38f30b-4797-4631-8de4-bedd96a376a1"
+                            "ioValue": "6e5151c3-21b6-4b33-a841-b6fd0c505af5"
                         }
                     ],
                     "description": "Pick between assembly and fusion to join input geometries. Assembly takes multiple shapes together into one, shapes higher in the inputs list will cut into shapes lower on the input list where they overlap. Fusion takes all shapes or sketches and fuses them permanently into a single shape"
@@ -2644,8 +2644,8 @@
                 {
                     "atomType": "Molecule",
                     "name": "Horizontal",
-                    "x": 0.33664021164021163,
-                    "y": 0.5571030640668524,
+                    "x": 0.3558201058201058,
+                    "y": 0.6323119777158774,
                     "uniqueID": "6e5151c3-21b6-4b33-a841-b6fd0c505af5",
                     "ioValues": [
                         {
@@ -2662,7 +2662,12 @@
                             "x": 0.98,
                             "y": 0.5,
                             "uniqueID": "beec274a-3040-4d5b-b3ff-0f777be8550f",
-                            "ioValues": [],
+                            "ioValues": [
+                                {
+                                    "name": "number or geometry",
+                                    "ioValue": "5ded6115-5f40-4952-a4a3-94c457a1ba49"
+                                }
+                            ],
                             "description": "Connect geometry here to make it available in the next level up. "
                         },
                         {

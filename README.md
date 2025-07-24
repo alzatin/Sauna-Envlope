@@ -11,5 +11,8 @@
 The shell walls are 60mm thick
 
 
+The shell walls are 60mm thick
+
+
 
 

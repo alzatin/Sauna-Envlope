@@ -744,7 +744,12 @@
                             "x": 0.98,
                             "y": 0.5,
                             "uniqueID": 1739774127196,
-                            "ioValues": [],
+                            "ioValues": [
+                                {
+                                    "name": "number or geometry",
+                                    "ioValue": 1739774145131
+                                }
+                            ],
                             "description": "Connect geometry here to make it available in the next level up. "
                         },
                         {
@@ -902,8 +907,8 @@
                         {
                             "atomType": "Intersection",
                             "name": "Intersection",
-                            "x": 0.34523809523809523,
-                            "y": 0.637883008356546,
+                            "x": 0.3220899470899471,
+                            "y": 0.7186629526462396,
                             "uniqueID": 1739774163691,
                             "ioValues": [
                                 {
@@ -1755,7 +1760,7 @@
                             "ioValues": [
                                 {
                                     "name": "Geometry",
-                                    "ioValue": 10
+                                    "ioValue": 1739774163691
                                 }
                             ],
                             "description": "Molecules provide an organizational structure to contain atoms. Double click on a molecule to enter it. Use the up arrow in the upper right hand corner of the screen to go up one level.",
@@ -1767,7 +1772,12 @@
                                     "x": 0.98,
                                     "y": 0.5,
                                     "uniqueID": "b68ab120-56a6-4980-9cbd-0d1d942d3cea",
-                                    "ioValues": [],
+                                    "ioValues": [
+                                        {
+                                            "name": "number or geometry",
+                                            "ioValue": "5dfb2994-55fd-46f2-9cda-e90844423e31"
+                                        }
+                                    ],
                                     "description": "Connect geometry here to make it available in the next level up. "
                                 },
                                 {
@@ -1789,7 +1799,7 @@
                                     "ioValues": [
                                         {
                                             "name": "Shape 1",
-                                            "ioValue": 10
+                                            "ioValue": 1739774163691
                                         },
                                         {
                                             "name": "Shape 3",
@@ -2350,32 +2360,6 @@
                                     }
                                 ]
                             ]
-                        },
-                        {
-                            "atomType": "Move",
-                            "name": "Move",
-                            "x": 0.2347883597883598,
-                            "y": 0.9025069637883008,
-                            "uniqueID": "7faf5983-7438-43f0-ab2c-60901ea18a98",
-                            "ioValues": [
-                                {
-                                    "name": "geometry",
-                                    "ioValue": "888f3970-1adc-4f52-baf5-77df7a8b68ca"
-                                },
-                                {
-                                    "name": "xDist",
-                                    "ioValue": 0
-                                },
-                                {
-                                    "name": "yDist",
-                                    "ioValue": 0
-                                },
-                                {
-                                    "name": "zDist",
-                                    "ioValue": 0
-                                }
-                            ],
-                            "description": "Moves a shape laterally in X, Y, Z."
                         }
                     ],
                     "allConnectors": [
@@ -2385,13 +2369,6 @@
                             "ap2Primary": false,
                             "ap1ID": 1739774127060,
                             "ap2ID": 1739774163691
-                        },
-                        {
-                            "ap1Name": "number or geometry",
-                            "ap2Name": "geometry",
-                            "ap2Primary": true,
-                            "ap1ID": 1739774127060,
-                            "ap2ID": "7faf5983-7438-43f0-ab2c-60901ea18a98"
                         },
                         {
                             "ap1Name": "number or geometry",
@@ -2448,6 +2425,13 @@
                             "ap2Primary": false,
                             "ap1ID": 1739774145131,
                             "ap2ID": 1739774127196
+                        },
+                        {
+                            "ap1Name": "geometry",
+                            "ap2Name": "Geometry",
+                            "ap2Primary": false,
+                            "ap1ID": 1739774163691,
+                            "ap2ID": "4c815208-1bec-4ea8-85cd-ee13cef9c217"
                         },
                         {
                             "ap1Name": "geometry",

@@ -912,7 +912,7 @@
                                 },
                                 {
                                     "name": "geometry2",
-                                    "ioValue": 10
+                                    "ioValue": ""
                                 }
                             ],
                             "description": "The space shared by two shapes."
@@ -2353,13 +2353,6 @@
                         }
                     ],
                     "allConnectors": [
-                        {
-                            "ap1Name": "number or geometry",
-                            "ap2Name": "geometry2",
-                            "ap2Primary": false,
-                            "ap1ID": 1739774127060,
-                            "ap2ID": 1739774163691
-                        },
                         {
                             "ap1Name": "number or geometry",
                             "ap2Name": "height",

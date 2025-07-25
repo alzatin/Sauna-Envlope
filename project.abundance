@@ -674,8 +674,8 @@
         {
             "atomType": "Molecule",
             "name": "Split Apart",
-            "x": 0.6091269841269841,
-            "y": 0.7242339832869081,
+            "x": 0.6058201058201058,
+            "y": 0.7910863509749304,
             "uniqueID": "b7f7ce1d-09db-481a-85ea-1a6d6fa21899",
             "ioValues": [
                 {
@@ -804,8 +804,8 @@
                         {
                             "atomType": "Rotate",
                             "name": "Rotate",
-                            "x": 0.2605820105820106,
-                            "y": 0.6100278551532033,
+                            "x": 0.44378306878306883,
+                            "y": 0.5013927576601671,
                             "uniqueID": 1739774144339,
                             "ioValues": [
                                 {
@@ -844,8 +844,8 @@
                         {
                             "atomType": "Intersection",
                             "name": "Intersection",
-                            "x": 0.208994708994709,
-                            "y": 0.777158774373259,
+                            "x": 0.4722222222222222,
+                            "y": 0.8997214484679666,
                             "uniqueID": 1739774163691,
                             "ioValues": [
                                 {
@@ -862,8 +862,8 @@
                         {
                             "atomType": "Move",
                             "name": "Move",
-                            "x": 0.13293650793650794,
-                            "y": 0.6916666666666667,
+                            "x": 0.15277777777777776,
+                            "y": 0.7827298050139275,
                             "uniqueID": "71fa2064-11a3-4663-bf8c-d06becc3273d",
                             "ioValues": [
                                 {
@@ -888,8 +888,8 @@
                         {
                             "atomType": "Assembly",
                             "name": "Assembly",
-                            "x": 0.20701058201058203,
-                            "y": 0.4111111111111111,
+                            "x": 0.24074074074074073,
+                            "y": 0.44011142061281333,
                             "uniqueID": "63a309af-b4b9-455c-bfd2-28b71c53145e",
                             "ioValues": [
                                 {
@@ -1427,8 +1427,8 @@
                         {
                             "atomType": "Rotate",
                             "name": "Rotate",
-                            "x": 0.1984126984126984,
-                            "y": 0.5750000000000001,
+                            "x": 0.2810846560846561,
+                            "y": 0.7075208913649026,
                             "uniqueID": "91a777d7-7a7b-4f1e-a787-9afeb52d03b2",
                             "ioValues": [
                                 {
@@ -1453,8 +1453,8 @@
                         {
                             "atomType": "Move",
                             "name": "Move",
-                            "x": 0.27380952380952384,
-                            "y": 0.37777777777777777,
+                            "x": 0.3247354497354497,
+                            "y": 0.41782729805013924,
                             "uniqueID": "d2b9ddf1-10f2-4e19-bce8-1e043d5e4c07",
                             "ioValues": [
                                 {
@@ -1497,7 +1497,12 @@
                                     "x": 0.98,
                                     "y": 0.5,
                                     "uniqueID": "b68ab120-56a6-4980-9cbd-0d1d942d3cea",
-                                    "ioValues": [],
+                                    "ioValues": [
+                                        {
+                                            "name": "number or geometry",
+                                            "ioValue": "5dfb2994-55fd-46f2-9cda-e90844423e31"
+                                        }
+                                    ],
                                     "description": "Connect geometry here to make it available in the next level up. "
                                 },
                                 {
@@ -1901,8 +1906,8 @@
                         {
                             "atomType": "Tag",
                             "name": "Ring Wood",
-                            "x": 0.3525132275132275,
-                            "y": 0.31666666666666665,
+                            "x": 0.4166666666666667,
+                            "y": 0.22005571030640667,
                             "uniqueID": "f683e790-1410-404f-a46b-25ba9749615b",
                             "ioValues": [
                                 {
@@ -3309,7 +3314,12 @@
                                     "x": 0.98,
                                     "y": 0.5,
                                     "uniqueID": "5abd5af6-a1c0-4010-be35-50f61d89bde0",
-                                    "ioValues": [],
+                                    "ioValues": [
+                                        {
+                                            "name": "number or geometry",
+                                            "ioValue": "20d1438b-e473-4e33-9e22-b7681eb9fc88"
+                                        }
+                                    ],
                                     "description": "Connect geometry here to make it available in the next level up. "
                                 },
                                 {

@@ -3111,8 +3111,8 @@
                         {
                             "atomType": "Molecule",
                             "name": "Template",
-                            "x": 0.09391534391534391,
-                            "y": 0.8910614525139664,
+                            "x": 0.09656084656084656,
+                            "y": 0.8690807799442898,
                             "uniqueID": "69747d6d-a613-4449-b101-ba67f67040ef",
                             "ioValues": [
                                 {
@@ -3307,8 +3307,8 @@
                         {
                             "atomType": "Molecule",
                             "name": "Notches",
-                            "x": 0.3472222222222222,
-                            "y": 0.6508379888268156,
+                            "x": 0.33664021164021163,
+                            "y": 0.6824512534818942,
                             "uniqueID": "03cec89d-33bc-4a0d-92a1-f606c13d25cc",
                             "ioValues": [
                                 {
@@ -3317,7 +3317,7 @@
                                 },
                                 {
                                     "name": "Input Geometry",
-                                    "ioValue": "0bdefb7c-feab-4f6c-b917-7caac4ca6f91"
+                                    "ioValue": "69747d6d-a613-4449-b101-ba67f67040ef"
                                 }
                             ],
                             "description": "Molecules provide an organizational structure to contain atoms. Double click on a molecule to enter it. Use the up arrow in the upper right hand corner of the screen to go up one level.",
@@ -3399,7 +3399,7 @@
                                     "ioValues": [
                                         {
                                             "name": "geometry1",
-                                            "ioValue": "0bdefb7c-feab-4f6c-b917-7caac4ca6f91"
+                                            "ioValue": "69747d6d-a613-4449-b101-ba67f67040ef"
                                         },
                                         {
                                             "name": "geometry2",
@@ -4021,8 +4021,8 @@
                         {
                             "atomType": "Intersection",
                             "name": "Intersection",
-                            "x": 0.28174603174603174,
-                            "y": 0.840782122905028,
+                            "x": 0.28835978835978837,
+                            "y": 0.4651810584958217,
                             "uniqueID": "0bdefb7c-feab-4f6c-b917-7caac4ca6f91",
                             "ioValues": [
                                 {
@@ -4164,6 +4164,13 @@
                         },
                         {
                             "ap1Name": "Geometry",
+                            "ap2Name": "Input Geometry",
+                            "ap2Primary": false,
+                            "ap1ID": "69747d6d-a613-4449-b101-ba67f67040ef",
+                            "ap2ID": "03cec89d-33bc-4a0d-92a1-f606c13d25cc"
+                        },
+                        {
+                            "ap1Name": "Geometry",
                             "ap2Name": "geometry",
                             "ap2Primary": true,
                             "ap1ID": "03cec89d-33bc-4a0d-92a1-f606c13d25cc",
@@ -4230,13 +4237,6 @@
                             "ap2Name": "Wood Thickness",
                             "ap2Primary": false,
                             "ap1ID": "f6e81609-66a3-4787-9222-bdc9ab38dab6",
-                            "ap2ID": "03cec89d-33bc-4a0d-92a1-f606c13d25cc"
-                        },
-                        {
-                            "ap1Name": "geometry",
-                            "ap2Name": "Input Geometry",
-                            "ap2Primary": false,
-                            "ap1ID": "0bdefb7c-feab-4f6c-b917-7caac4ca6f91",
                             "ap2ID": "03cec89d-33bc-4a0d-92a1-f606c13d25cc"
                         },
                         {

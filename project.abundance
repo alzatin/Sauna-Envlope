@@ -674,8 +674,8 @@
         {
             "atomType": "Molecule",
             "name": "Split Apart",
-            "x": 0.4801587301587301,
-            "y": 0.796657381615599,
+            "x": 0.4788359788359788,
+            "y": 0.8022284122562675,
             "uniqueID": "b7f7ce1d-09db-481a-85ea-1a6d6fa21899",
             "ioValues": [
                 {
@@ -696,7 +696,12 @@
                     "x": 0.98,
                     "y": 0.5,
                     "uniqueID": "409a2508-217c-43b6-a4d4-c31533884b69",
-                    "ioValues": [],
+                    "ioValues": [
+                        {
+                            "name": "number or geometry",
+                            "ioValue": "a857b617-d3fb-4d63-b3df-0b236e6e6590"
+                        }
+                    ],
                     "description": "Connect geometry here to make it available in the next level up. "
                 },
                 {
@@ -744,7 +749,12 @@
                             "x": 0.98,
                             "y": 0.5,
                             "uniqueID": 1739774127196,
-                            "ioValues": [],
+                            "ioValues": [
+                                {
+                                    "name": "number or geometry",
+                                    "ioValue": 1739774145131
+                                }
+                            ],
                             "description": "Connect geometry here to make it available in the next level up. "
                         },
                         {
@@ -5030,7 +5040,114 @@
                 }
             ],
             "description": "Extracts all parts tagged for cutting and lays them out on a sheet to cut.",
-            "placements": []
+            "placements": [
+                [
+                    {
+                        "id": 0,
+                        "rotate": 0,
+                        "translate": {
+                            "x": 0,
+                            "y": 0
+                        }
+                    },
+                    {
+                        "id": 1,
+                        "rotate": 0,
+                        "translate": {
+                            "x": 0,
+                            "y": 0
+                        }
+                    },
+                    {
+                        "id": 2,
+                        "rotate": 0,
+                        "translate": {
+                            "x": 0,
+                            "y": 0
+                        }
+                    },
+                    {
+                        "id": 3,
+                        "rotate": 0,
+                        "translate": {
+                            "x": 0,
+                            "y": 0
+                        }
+                    },
+                    {
+                        "id": 4,
+                        "rotate": 0,
+                        "translate": {
+                            "x": 0,
+                            "y": 0
+                        }
+                    },
+                    {
+                        "id": 5,
+                        "rotate": 0,
+                        "translate": {
+                            "x": 0,
+                            "y": 0
+                        }
+                    },
+                    {
+                        "id": 6,
+                        "rotate": 0,
+                        "translate": {
+                            "x": 0,
+                            "y": 0
+                        }
+                    },
+                    {
+                        "id": 7,
+                        "rotate": 0,
+                        "translate": {
+                            "x": 0,
+                            "y": 0
+                        }
+                    },
+                    {
+                        "id": 8,
+                        "rotate": 0,
+                        "translate": {
+                            "x": 0,
+                            "y": 0
+                        }
+                    },
+                    {
+                        "id": 9,
+                        "rotate": 0,
+                        "translate": {
+                            "x": 0,
+                            "y": 0
+                        }
+                    },
+                    {
+                        "id": 10,
+                        "rotate": 0,
+                        "translate": {
+                            "x": 0,
+                            "y": 0
+                        }
+                    },
+                    {
+                        "id": 11,
+                        "rotate": 0,
+                        "translate": {
+                            "x": 0,
+                            "y": 0
+                        }
+                    },
+                    {
+                        "id": 12,
+                        "rotate": 0,
+                        "translate": {
+                            "x": 0,
+                            "y": 0
+                        }
+                    }
+                ]
+            ]
         }
     ],
     "allConnectors": [

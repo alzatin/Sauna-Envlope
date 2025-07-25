@@ -674,7 +674,7 @@
         {
             "atomType": "Molecule",
             "name": "Split Apart",
-            "x": 0.6058201058201058,
+            "x": 0.46759259259259256,
             "y": 0.7910863509749304,
             "uniqueID": "b7f7ce1d-09db-481a-85ea-1a6d6fa21899",
             "ioValues": [
@@ -5145,6 +5145,49 @@
                 }
             ],
             "description": "Moves a shape laterally in X, Y, Z."
+        },
+        {
+            "atomType": "ExtractTag",
+            "name": "Extract Tag",
+            "x": 0.6309523809523809,
+            "y": 0.83008356545961,
+            "uniqueID": "6d1eb914-c97f-45f1-9fe0-d0c95fdce69d",
+            "ioValues": [
+                {
+                    "name": "geometry",
+                    "ioValue": "b7f7ce1d-09db-481a-85ea-1a6d6fa21899"
+                }
+            ],
+            "description": "Extracts geometry containing the specified tag.",
+            "tag": "Ring Wood",
+            "tagIndex": 0
+        },
+        {
+            "atomType": "CutLayout",
+            "name": "Cut Layout",
+            "x": 0.798941798941799,
+            "y": 0.7604456824512534,
+            "uniqueID": "f7453a7c-2d7a-480c-b9ee-158d486c7814",
+            "ioValues": [
+                {
+                    "name": "geometry",
+                    "ioValue": "6d1eb914-c97f-45f1-9fe0-d0c95fdce69d"
+                },
+                {
+                    "name": "Sheet Width",
+                    "ioValue": 4000
+                },
+                {
+                    "name": "Sheet Height",
+                    "ioValue": 4000
+                },
+                {
+                    "name": "Part Padding",
+                    "ioValue": 6
+                }
+            ],
+            "description": "Extracts all parts tagged for cutting and lays them out on a sheet to cut.",
+            "placements": []
         }
     ],
     "allConnectors": [
@@ -5154,6 +5197,13 @@
             "ap2Primary": false,
             "ap1ID": "0a40ea50-8d5e-49ae-bd3b-df35fa44f718",
             "ap2ID": "0b534dd5-6f4e-4263-9395-c0a2fafade08"
+        },
+        {
+            "ap1Name": "Geometry",
+            "ap2Name": "geometry",
+            "ap2Primary": true,
+            "ap1ID": "b7f7ce1d-09db-481a-85ea-1a6d6fa21899",
+            "ap2ID": "6d1eb914-c97f-45f1-9fe0-d0c95fdce69d"
         },
         {
             "ap1Name": "geometry",
@@ -5196,6 +5246,13 @@
             "ap2Primary": false,
             "ap1ID": "888f3970-1adc-4f52-baf5-77df7a8b68ca",
             "ap2ID": "9b886d02-1bbe-4635-be41-d54e6e49b324"
+        },
+        {
+            "ap1Name": "geometry",
+            "ap2Name": "geometry",
+            "ap2Primary": false,
+            "ap1ID": "6d1eb914-c97f-45f1-9fe0-d0c95fdce69d",
+            "ap2ID": "f7453a7c-2d7a-480c-b9ee-158d486c7814"
         }
     ],
     "unitsKey": "MM",

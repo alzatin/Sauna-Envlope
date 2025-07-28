@@ -96,7 +96,7 @@
                     "ioValues": [
                         {
                             "name": "geometry",
-                            "ioValue": "b5450f6a-27f4-4dc2-b7b7-9db23830e7dc"
+                            "ioValue": "3aa66e56-1294-4ed8-81b5-481ceed43bb9"
                         },
                         {
                             "name": "xDist",
@@ -559,6 +559,32 @@
                     "ioValues": [],
                     "description": "Adds an input to the parent molecule. If the parent molecule is the top level of the project then the input will be available when the project is shared or imported into another project. Name is editable",
                     "type": "number"
+                },
+                {
+                    "atomType": "Rotate",
+                    "name": "Rotate",
+                    "x": 0.223480947476828,
+                    "y": 0.27298050139275765,
+                    "uniqueID": "3aa66e56-1294-4ed8-81b5-481ceed43bb9",
+                    "ioValues": [
+                        {
+                            "name": "geometry",
+                            "ioValue": "b5450f6a-27f4-4dc2-b7b7-9db23830e7dc"
+                        },
+                        {
+                            "name": "x-axis degrees",
+                            "ioValue": 0
+                        },
+                        {
+                            "name": "y-axis degrees",
+                            "ioValue": 0
+                        },
+                        {
+                            "name": "z-axis degrees",
+                            "ioValue": -90
+                        }
+                    ],
+                    "description": "Rotates the input geometry around the X, Y, or Z axis. Inputs are degrees."
                 }
             ],
             "allConnectors": [
@@ -609,7 +635,7 @@
                     "ap2Name": "geometry",
                     "ap2Primary": true,
                     "ap1ID": "b5450f6a-27f4-4dc2-b7b7-9db23830e7dc",
-                    "ap2ID": "129f4b62-13e6-4273-ad7d-36ad60cd6ce6"
+                    "ap2ID": "3aa66e56-1294-4ed8-81b5-481ceed43bb9"
                 },
                 {
                     "ap1Name": "geometry",
@@ -666,6 +692,13 @@
                     "ap2Primary": false,
                     "ap1ID": "bba288c0-c365-4223-a927-26bcd7f03ee2",
                     "ap2ID": "d152ddb2-5b67-42c1-b929-3f2b201106fa"
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "geometry",
+                    "ap2Primary": true,
+                    "ap1ID": "3aa66e56-1294-4ed8-81b5-481ceed43bb9",
+                    "ap2ID": "129f4b62-13e6-4273-ad7d-36ad60cd6ce6"
                 }
             ],
             "fileTypeVersion": 1,
@@ -4948,9 +4981,9 @@
         },
         {
             "atomType": "Molecule",
-            "name": "Envlope",
-            "x": 0.0496031746031746,
-            "y": 0.8607242339832869,
+            "name": "Inside",
+            "x": 0.050463439752832136,
+            "y": 0.8551532033426184,
             "uniqueID": "640d0386-690e-4a92-87d6-4c1bad03d0b7",
             "ioValues": [],
             "description": "Molecules provide an organizational structure to contain atoms. Double click on a molecule to enter it. Use the up arrow in the upper right hand corner of the screen to go up one level.",

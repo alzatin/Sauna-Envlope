@@ -17,7 +17,7 @@
             "ioValues": [
                 {
                     "name": "number or geometry",
-                    "ioValue": "888f3970-1adc-4f52-baf5-77df7a8b68ca"
+                    "ioValue": "36a4d2e6-b1b8-4471-9bd0-62d3559783dc"
                 }
             ],
             "description": "Connect geometry here to make it available in the next level up. "
@@ -674,8 +674,8 @@
         {
             "atomType": "Molecule",
             "name": "Split Apart",
-            "x": 0.4788359788359788,
-            "y": 0.8022284122562675,
+            "x": 0.48082010582010587,
+            "y": 0.818941504178273,
             "uniqueID": "b7f7ce1d-09db-481a-85ea-1a6d6fa21899",
             "ioValues": [
                 {
@@ -696,7 +696,12 @@
                     "x": 0.98,
                     "y": 0.5,
                     "uniqueID": "409a2508-217c-43b6-a4d4-c31533884b69",
-                    "ioValues": [],
+                    "ioValues": [
+                        {
+                            "name": "number or geometry",
+                            "ioValue": "a857b617-d3fb-4d63-b3df-0b236e6e6590"
+                        }
+                    ],
                     "description": "Connect geometry here to make it available in the next level up. "
                 },
                 {
@@ -721,9 +726,9 @@
                 },
                 {
                     "atomType": "Molecule",
-                    "name": "Vertical",
-                    "x": 0.3082010582010582,
-                    "y": 0.2813370473537604,
+                    "name": "Ring",
+                    "x": 0.3035714285714286,
+                    "y": 0.2757660167130919,
                     "uniqueID": "1aa1ba37-c26c-45d3-9d3c-44992d4975e7",
                     "ioValues": [
                         {
@@ -744,7 +749,12 @@
                             "x": 0.98,
                             "y": 0.5,
                             "uniqueID": 1739774127196,
-                            "ioValues": [],
+                            "ioValues": [
+                                {
+                                    "name": "number or geometry",
+                                    "ioValue": 1739774145131
+                                }
+                            ],
                             "description": "Connect geometry here to make it available in the next level up. "
                         },
                         {
@@ -2065,7 +2075,7 @@
                 },
                 {
                     "atomType": "Molecule",
-                    "name": "Horizontal",
+                    "name": "Bracing",
                     "x": 0.3716931216931217,
                     "y": 0.6267409470752089,
                     "uniqueID": "6e5151c3-21b6-4b33-a841-b6fd0c505af5",
@@ -5008,8 +5018,8 @@
         {
             "atomType": "CutLayout",
             "name": "Cut Layout",
-            "x": 0.798941798941799,
-            "y": 0.7604456824512534,
+            "x": 0.7956349206349206,
+            "y": 0.7632311977715878,
             "uniqueID": "f7453a7c-2d7a-480c-b9ee-158d486c7814",
             "ioValues": [
                 {
@@ -5138,6 +5148,24 @@
                     }
                 ]
             ]
+        },
+        {
+            "atomType": "Rectangle",
+            "name": "Rectangle",
+            "x": 0.7136243386243386,
+            "y": 0.2562674094707521,
+            "uniqueID": "36a4d2e6-b1b8-4471-9bd0-62d3559783dc",
+            "ioValues": [
+                {
+                    "name": "x length",
+                    "ioValue": 1152
+                },
+                {
+                    "name": "y length",
+                    "ioValue": 576
+                }
+            ],
+            "description": "Creates a new rectangle."
         }
     ],
     "allConnectors": [
@@ -5192,17 +5220,17 @@
         },
         {
             "ap1Name": "geometry",
-            "ap2Name": "number or geometry",
-            "ap2Primary": false,
-            "ap1ID": "888f3970-1adc-4f52-baf5-77df7a8b68ca",
-            "ap2ID": "9b886d02-1bbe-4635-be41-d54e6e49b324"
-        },
-        {
-            "ap1Name": "geometry",
             "ap2Name": "geometry",
             "ap2Primary": false,
             "ap1ID": "6d1eb914-c97f-45f1-9fe0-d0c95fdce69d",
             "ap2ID": "f7453a7c-2d7a-480c-b9ee-158d486c7814"
+        },
+        {
+            "ap1Name": "geometry",
+            "ap2Name": "number or geometry",
+            "ap2Primary": false,
+            "ap1ID": "36a4d2e6-b1b8-4471-9bd0-62d3559783dc",
+            "ap2ID": "9b886d02-1bbe-4635-be41-d54e6e49b324"
         }
     ],
     "unitsKey": "MM",

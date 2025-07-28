@@ -729,7 +729,12 @@
                     "x": 0.98,
                     "y": 0.5,
                     "uniqueID": "409a2508-217c-43b6-a4d4-c31533884b69",
-                    "ioValues": [],
+                    "ioValues": [
+                        {
+                            "name": "number or geometry",
+                            "ioValue": "a857b617-d3fb-4d63-b3df-0b236e6e6590"
+                        }
+                    ],
                     "description": "Connect geometry here to make it available in the next level up. "
                 },
                 {
@@ -777,7 +782,12 @@
                             "x": 0.98,
                             "y": 0.5,
                             "uniqueID": 1739774127196,
-                            "ioValues": [],
+                            "ioValues": [
+                                {
+                                    "name": "number or geometry",
+                                    "ioValue": 1739774145131
+                                }
+                            ],
                             "description": "Connect geometry here to make it available in the next level up. "
                         },
                         {
@@ -1494,7 +1504,12 @@
                                     "x": 0.98,
                                     "y": 0.5,
                                     "uniqueID": "b68ab120-56a6-4980-9cbd-0d1d942d3cea",
-                                    "ioValues": [],
+                                    "ioValues": [
+                                        {
+                                            "name": "number or geometry",
+                                            "ioValue": "5dfb2994-55fd-46f2-9cda-e90844423e31"
+                                        }
+                                    ],
                                     "description": "Connect geometry here to make it available in the next level up. "
                                 },
                                 {
@@ -5324,8 +5339,8 @@
         {
             "atomType": "CutLayout",
             "name": "Cut Layout",
-            "x": 0.6045314109165808,
-            "y": 0.7242339832869081,
+            "x": 0.6333676622039135,
+            "y": 0.7520891364902507,
             "uniqueID": "f7453a7c-2d7a-480c-b9ee-158d486c7814",
             "ioValues": [
                 {
@@ -5358,7 +5373,7 @@
                     },
                     {
                         "id": 1,
-                        "rotate": 0,
+                        "rotate": 90,
                         "translate": {
                             "x": 500,
                             "y": 0
@@ -5464,11 +5479,11 @@
             "ioValues": [
                 {
                     "name": "x length",
-                    "ioValue": 1152
+                    "ioValue": 2438.4
                 },
                 {
                     "name": "y length",
-                    "ioValue": 576
+                    "ioValue": 1219.2
                 }
             ],
             "description": "Creates a new rectangle."

@@ -5336,7 +5336,7 @@
                 [
                     {
                         "id": 0,
-                        "rotate": 0,
+                        "rotate": 150,
                         "translate": {
                             "x": 0,
                             "y": 0
@@ -5344,7 +5344,7 @@
                     },
                     {
                         "id": 1,
-                        "rotate": 90,
+                        "rotate": 110,
                         "translate": {
                             "x": 500,
                             "y": 0
@@ -5352,15 +5352,15 @@
                     },
                     {
                         "id": 2,
-                        "rotate": 0,
+                        "rotate": 90,
                         "translate": {
-                            "x": 0,
+                            "x": 500,
                             "y": 0
                         }
                     },
                     {
                         "id": 3,
-                        "rotate": 0,
+                        "rotate": 90,
                         "translate": {
                             "x": 0,
                             "y": 0
@@ -5463,7 +5463,7 @@
             "atomType": "Rotate",
             "name": "Rotate",
             "x": 0.6148300720906282,
-            "y": 0.49303621169916434,
+            "y": 0.33147632311977715,
             "uniqueID": "42372014-1bd2-4502-b61e-cea7724a52d9",
             "ioValues": [
                 {

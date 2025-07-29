@@ -5294,8 +5294,8 @@
         {
             "atomType": "ExtractTag",
             "name": "Extract Tag",
-            "x": 0.5180226570545828,
-            "y": 0.8885793871866295,
+            "x": 0.4933058702368693,
+            "y": 0.777158774373259,
             "uniqueID": "6d1eb914-c97f-45f1-9fe0-d0c95fdce69d",
             "ioValues": [
                 {
@@ -5310,8 +5310,8 @@
         {
             "atomType": "CutLayout",
             "name": "Cut Layout",
-            "x": 0.6457260556127703,
-            "y": 0.6545961002785515,
+            "x": 0.6220391349124613,
+            "y": 0.9025069637883008,
             "uniqueID": "f7453a7c-2d7a-480c-b9ee-158d486c7814",
             "ioValues": [
                 {
@@ -5446,8 +5446,8 @@
         {
             "atomType": "Rotate",
             "name": "Rotate",
-            "x": 0.6220391349124613,
-            "y": 0.37325905292479106,
+            "x": 0.627188465499485,
+            "y": 0.40111420612813375,
             "uniqueID": "42372014-1bd2-4502-b61e-cea7724a52d9",
             "ioValues": [
                 {
@@ -5468,6 +5468,37 @@
                 }
             ],
             "description": "Rotates the input geometry around the X, Y, or Z axis. Inputs are degrees."
+        },
+        {
+            "atomType": "Gcode",
+            "name": "Gcode",
+            "x": 0.8125643666323378,
+            "y": 0.8635097493036212,
+            "uniqueID": "94c39872-500a-469b-95e8-32b8be95155e",
+            "ioValues": [
+                {
+                    "name": "Tool Size",
+                    "ioValue": 6.35
+                },
+                {
+                    "name": "Passes",
+                    "ioValue": 6
+                },
+                {
+                    "name": "Speed",
+                    "ioValue": 500
+                },
+                {
+                    "name": "Cut Through",
+                    "ioValue": 1
+                },
+                {
+                    "name": "Part Name",
+                    "ioValue": "Sauna-Envlope"
+                }
+            ],
+            "description": "Generates Maslow gcode from the input geometry.",
+            "partName": "Sauna-Envlope"
         }
     ],
     "allConnectors": [

@@ -5310,8 +5310,8 @@
         {
             "atomType": "CutLayout",
             "name": "Cut Layout",
-            "x": 0.6567460317460317,
-            "y": 0.7270194986072424,
+            "x": 0.6457260556127703,
+            "y": 0.6545961002785515,
             "uniqueID": "f7453a7c-2d7a-480c-b9ee-158d486c7814",
             "ioValues": [
                 {
@@ -5336,17 +5336,17 @@
                 [
                     {
                         "id": 0,
-                        "rotate": 0,
+                        "rotate": 325,
                         "translate": {
-                            "x": 0,
+                            "x": -1000,
                             "y": 0
                         }
                     },
                     {
                         "id": 1,
-                        "rotate": 140,
+                        "rotate": 290,
                         "translate": {
-                            "x": 600,
+                            "x": -860,
                             "y": 0
                         }
                     },
@@ -5354,47 +5354,47 @@
                         "id": 2,
                         "rotate": 0,
                         "translate": {
-                            "x": 0,
-                            "y": 0
+                            "x": 1000,
+                            "y": 101
                         }
                     },
                     {
                         "id": 3,
-                        "rotate": 0,
+                        "rotate": 90,
                         "translate": {
-                            "x": 0,
-                            "y": 0
+                            "x": 1000,
+                            "y": -90
                         }
                     },
                     {
                         "id": 4,
-                        "rotate": 0,
+                        "rotate": 110,
                         "translate": {
-                            "x": 0,
+                            "x": -720,
                             "y": 0
                         }
                     },
                     {
                         "id": 5,
-                        "rotate": 0,
+                        "rotate": 140,
                         "translate": {
-                            "x": 0,
+                            "x": -550,
                             "y": 0
                         }
                     },
                     {
                         "id": 6,
-                        "rotate": 0,
+                        "rotate": -55,
                         "translate": {
-                            "x": 0,
+                            "x": -440,
                             "y": 0
                         }
                     },
                     {
                         "id": 7,
-                        "rotate": 0,
+                        "rotate": -70,
                         "translate": {
-                            "x": 0,
+                            "x": -300,
                             "y": 0
                         }
                     },
@@ -5402,15 +5402,15 @@
                         "id": 8,
                         "rotate": 0,
                         "translate": {
-                            "x": 0,
-                            "y": 0
+                            "x": 600,
+                            "y": 90
                         }
                     },
                     {
                         "id": 9,
-                        "rotate": 0,
+                        "rotate": 90,
                         "translate": {
-                            "x": 0,
+                            "x": 260,
                             "y": 0
                         }
                     },

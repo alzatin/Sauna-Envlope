@@ -5336,7 +5336,7 @@
                 [
                     {
                         "id": 0,
-                        "rotate": 1950,
+                        "rotate": 0,
                         "translate": {
                             "x": 0,
                             "y": 0
@@ -5344,7 +5344,7 @@
                     },
                     {
                         "id": 1,
-                        "rotate": 111,
+                        "rotate": 140,
                         "translate": {
                             "x": 600,
                             "y": 0
@@ -5352,9 +5352,9 @@
                     },
                     {
                         "id": 2,
-                        "rotate": 90,
+                        "rotate": 0,
                         "translate": {
-                            "x": 530,
+                            "x": 0,
                             "y": 0
                         }
                     },
@@ -5416,22 +5416,6 @@
                     },
                     {
                         "id": 10,
-                        "rotate": 0,
-                        "translate": {
-                            "x": 0,
-                            "y": 0
-                        }
-                    },
-                    {
-                        "id": 11,
-                        "rotate": 0,
-                        "translate": {
-                            "x": 0,
-                            "y": 0
-                        }
-                    },
-                    {
-                        "id": 12,
                         "rotate": 0,
                         "translate": {
                             "x": 0,

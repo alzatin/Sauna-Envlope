@@ -5310,8 +5310,8 @@
         {
             "atomType": "CutLayout",
             "name": "Cut Layout",
-            "x": 0.5829042224510814,
-            "y": 0.6434540389972144,
+            "x": 0.694129763130793,
+            "y": 0.9080779944289693,
             "uniqueID": "f7453a7c-2d7a-480c-b9ee-158d486c7814",
             "ioValues": [
                 {
@@ -5472,8 +5472,8 @@
         {
             "atomType": "Gcode",
             "name": "Gcode",
-            "x": 0.780638516992791,
-            "y": 0.8133704735376045,
+            "x": 0.8784757981462411,
+            "y": 0.9693593314763231,
             "uniqueID": "97d1ebd7-4960-40af-aef3-8000079fc873",
             "ioValues": [
                 {
@@ -5505,34 +5505,75 @@
             "partName": "Sauna-Envlope"
         },
         {
-            "atomType": "Export",
-            "name": "Export",
-            "x": 0.713697219361483,
-            "y": 0.584958217270195,
-            "uniqueID": "acab84d9-3b27-405e-aa84-061450f0d18a",
+            "atomType": "Move",
+            "name": "Move",
+            "x": 0.5777548918640576,
+            "y": 0.5654596100278552,
+            "uniqueID": "28ad94e8-1aa9-4d1a-9ca4-21bc1d3f608a",
             "ioValues": [
                 {
                     "name": "geometry",
-                    "ioValue": "f7453a7c-2d7a-480c-b9ee-158d486c7814"
+                    "ioValue": "6d1eb914-c97f-45f1-9fe0-d0c95fdce69d"
                 },
                 {
-                    "name": "Resolution (dpi)",
-                    "ioValue": 96
+                    "name": "xDist",
+                    "ioValue": 200
                 },
                 {
-                    "name": "Part Name",
-                    "ioValue": "Sauna-Envlope"
+                    "name": "yDist",
+                    "ioValue": 0
                 },
                 {
-                    "name": "File Type",
-                    "ioValue": "STL"
+                    "name": "zDist",
+                    "ioValue": 0
                 }
             ],
-            "description": "Export Atom, let's you choose a type of file to Export.",
-            "type": "STL",
-            "resolution": 96,
-            "importIndex": 0,
-            "partName": "Sauna-Envlope"
+            "description": "Moves a shape laterally in X, Y, Z."
+        },
+        {
+            "atomType": "Assembly",
+            "name": "Assembly",
+            "x": 0.6488156539649845,
+            "y": 0.7242339832869081,
+            "uniqueID": "4de84f7b-812c-4d86-906b-69c25fca823b",
+            "ioValues": [
+                {
+                    "name": "Shape 1",
+                    "ioValue": "6d1eb914-c97f-45f1-9fe0-d0c95fdce69d"
+                },
+                {
+                    "name": "Shape 2",
+                    "ioValue": "28ad94e8-1aa9-4d1a-9ca4-21bc1d3f608a"
+                }
+            ],
+            "description": "Pick between assembly and fusion to join input geometries. Assembly takes multiple shapes together into one, shapes higher in the inputs list will cut into shapes lower on the input list where they overlap. Fusion takes all shapes or sketches and fuses them permanently into a single shape"
+        },
+        {
+            "atomType": "CutLayout",
+            "name": "Cut Layout",
+            "x": 0.7559217301750772,
+            "y": 0.5487465181058496,
+            "uniqueID": "06560358-425a-4db0-8648-3a011b132469",
+            "ioValues": [
+                {
+                    "name": "geometry",
+                    "ioValue": "4de84f7b-812c-4d86-906b-69c25fca823b"
+                },
+                {
+                    "name": "Sheet Width",
+                    "ioValue": 1219
+                },
+                {
+                    "name": "Sheet Height",
+                    "ioValue": 2438
+                },
+                {
+                    "name": "Part Padding",
+                    "ioValue": 6
+                }
+            ],
+            "description": "Extracts all parts tagged for cutting and lays them out on a sheet to cut.",
+            "placements": []
         }
     ],
     "allConnectors": [
@@ -5601,6 +5642,20 @@
         },
         {
             "ap1Name": "geometry",
+            "ap2Name": "geometry",
+            "ap2Primary": true,
+            "ap1ID": "6d1eb914-c97f-45f1-9fe0-d0c95fdce69d",
+            "ap2ID": "28ad94e8-1aa9-4d1a-9ca4-21bc1d3f608a"
+        },
+        {
+            "ap1Name": "geometry",
+            "ap2Name": "Shape 1",
+            "ap2Primary": false,
+            "ap1ID": "6d1eb914-c97f-45f1-9fe0-d0c95fdce69d",
+            "ap2ID": "4de84f7b-812c-4d86-906b-69c25fca823b"
+        },
+        {
+            "ap1Name": "geometry",
             "ap2Name": "Geometry",
             "ap2Primary": false,
             "ap1ID": "f7453a7c-2d7a-480c-b9ee-158d486c7814",
@@ -5608,17 +5663,24 @@
         },
         {
             "ap1Name": "geometry",
-            "ap2Name": "geometry",
-            "ap2Primary": false,
-            "ap1ID": "f7453a7c-2d7a-480c-b9ee-158d486c7814",
-            "ap2ID": "acab84d9-3b27-405e-aa84-061450f0d18a"
-        },
-        {
-            "ap1Name": "geometry",
             "ap2Name": "number or geometry",
             "ap2Primary": false,
             "ap1ID": "36a4d2e6-b1b8-4471-9bd0-62d3559783dc",
             "ap2ID": "9b886d02-1bbe-4635-be41-d54e6e49b324"
+        },
+        {
+            "ap1Name": "geometry",
+            "ap2Name": "Shape 2",
+            "ap2Primary": false,
+            "ap1ID": "28ad94e8-1aa9-4d1a-9ca4-21bc1d3f608a",
+            "ap2ID": "4de84f7b-812c-4d86-906b-69c25fca823b"
+        },
+        {
+            "ap1Name": "geometry",
+            "ap2Name": "geometry",
+            "ap2Primary": false,
+            "ap1ID": "4de84f7b-812c-4d86-906b-69c25fca823b",
+            "ap2ID": "06560358-425a-4db0-8648-3a011b132469"
         }
     ],
     "unitsKey": "MM",

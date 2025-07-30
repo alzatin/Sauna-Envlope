@@ -5753,6 +5753,41 @@
                     }
                 ]
             ]
+        },
+        {
+            "atomType": "Gcode",
+            "name": "Gcode",
+            "x": 0.8452380952380952,
+            "y": 0.67966573816156,
+            "uniqueID": "1d4692e1-78f1-45e9-b354-0f4535e40977",
+            "ioValues": [
+                {
+                    "name": "Geometry",
+                    "ioValue": "06560358-425a-4db0-8648-3a011b132469"
+                },
+                {
+                    "name": "Tool Size",
+                    "ioValue": 6.35
+                },
+                {
+                    "name": "Passes",
+                    "ioValue": 1
+                },
+                {
+                    "name": "Speed",
+                    "ioValue": 500
+                },
+                {
+                    "name": "Cut Through",
+                    "ioValue": 1
+                },
+                {
+                    "name": "Part Name",
+                    "ioValue": "Sauna-Envlope"
+                }
+            ],
+            "description": "Generates Maslow gcode from the input geometry.",
+            "partName": "Sauna-Envlope"
         }
     ],
     "allConnectors": [
@@ -5860,6 +5895,13 @@
             "ap2Primary": false,
             "ap1ID": "4de84f7b-812c-4d86-906b-69c25fca823b",
             "ap2ID": "06560358-425a-4db0-8648-3a011b132469"
+        },
+        {
+            "ap1Name": "geometry",
+            "ap2Name": "Geometry",
+            "ap2Primary": false,
+            "ap1ID": "06560358-425a-4db0-8648-3a011b132469",
+            "ap2ID": "1d4692e1-78f1-45e9-b354-0f4535e40977"
         }
     ],
     "unitsKey": "MM",

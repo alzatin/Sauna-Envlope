@@ -5733,37 +5733,6 @@
             "description": "Rotates the input geometry around the X, Y, or Z axis. Inputs are degrees."
         },
         {
-            "atomType": "Gcode",
-            "name": "Gcode",
-            "x": 0.8784757981462411,
-            "y": 0.9693593314763231,
-            "uniqueID": "97d1ebd7-4960-40af-aef3-8000079fc873",
-            "ioValues": [
-                {
-                    "name": "Tool Size",
-                    "ioValue": 6.35
-                },
-                {
-                    "name": "Passes",
-                    "ioValue": 2
-                },
-                {
-                    "name": "Speed",
-                    "ioValue": 500
-                },
-                {
-                    "name": "Cut Through",
-                    "ioValue": 1
-                },
-                {
-                    "name": "Part Name",
-                    "ioValue": "Sauna-Envlope"
-                }
-            ],
-            "description": "Generates Maslow gcode from the input geometry.",
-            "partName": "Sauna-Envlope"
-        },
-        {
             "atomType": "Move",
             "name": "Move",
             "x": 0.5777548918640576,
@@ -6016,10 +5985,14 @@
         {
             "atomType": "Gcode",
             "name": "Gcode",
-            "x": 0.8531746031746031,
-            "y": 0.6128133704735376,
+            "x": 0.8650875386199794,
+            "y": 0.5487465181058496,
             "uniqueID": "a790677a-5093-4900-8c1a-73b555ff0c2c",
             "ioValues": [
+                {
+                    "name": "Geometry",
+                    "ioValue": "06560358-425a-4db0-8648-3a011b132469"
+                },
                 {
                     "name": "Tool Size",
                     "ioValue": 6.35
@@ -6180,6 +6153,13 @@
             "ap2Primary": false,
             "ap1ID": "06560358-425a-4db0-8648-3a011b132469",
             "ap2ID": "6cd19444-4f6c-445d-8909-0f33e38a95b0"
+        },
+        {
+            "ap1Name": "geometry",
+            "ap2Name": "Geometry",
+            "ap2Primary": false,
+            "ap1ID": "06560358-425a-4db0-8648-3a011b132469",
+            "ap2ID": "a790677a-5093-4900-8c1a-73b555ff0c2c"
         }
     ],
     "unitsKey": "MM",

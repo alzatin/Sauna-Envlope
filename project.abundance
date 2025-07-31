@@ -6043,6 +6043,36 @@
             ],
             "description": "Generates Maslow gcode from the input geometry.",
             "partName": "Sauna-Envlope"
+        },
+        {
+            "atomType": "Export",
+            "name": "Export",
+            "x": 0.7784391534391535,
+            "y": 0.6908077994428969,
+            "uniqueID": "6cd19444-4f6c-445d-8909-0f33e38a95b0",
+            "ioValues": [
+                {
+                    "name": "geometry",
+                    "ioValue": "06560358-425a-4db0-8648-3a011b132469"
+                },
+                {
+                    "name": "Resolution (dpi)",
+                    "ioValue": 96
+                },
+                {
+                    "name": "Part Name",
+                    "ioValue": "Sauna-Envlope"
+                },
+                {
+                    "name": "File Type",
+                    "ioValue": "STL"
+                }
+            ],
+            "description": "Export Atom, let's you choose a type of file to Export.",
+            "type": "STL",
+            "resolution": 96,
+            "importIndex": 0,
+            "partName": "Sauna-Envlope"
         }
     ],
     "allConnectors": [
@@ -6143,6 +6173,13 @@
             "ap2Primary": false,
             "ap1ID": "4de84f7b-812c-4d86-906b-69c25fca823b",
             "ap2ID": "06560358-425a-4db0-8648-3a011b132469"
+        },
+        {
+            "ap1Name": "geometry",
+            "ap2Name": "geometry",
+            "ap2Primary": false,
+            "ap1ID": "06560358-425a-4db0-8648-3a011b132469",
+            "ap2ID": "6cd19444-4f6c-445d-8909-0f33e38a95b0"
         }
     ],
     "unitsKey": "MM",

@@ -5740,10 +5740,6 @@
             "uniqueID": "97d1ebd7-4960-40af-aef3-8000079fc873",
             "ioValues": [
                 {
-                    "name": "Geometry",
-                    "ioValue": "f7453a7c-2d7a-480c-b9ee-158d486c7814"
-                },
-                {
                     "name": "Tool Size",
                     "ioValue": 6.35
                 },
@@ -6020,14 +6016,10 @@
         {
             "atomType": "Gcode",
             "name": "Gcode",
-            "x": 0.8650793650793651,
-            "y": 0.5710306406685237,
+            "x": 0.8531746031746031,
+            "y": 0.6128133704735376,
             "uniqueID": "a790677a-5093-4900-8c1a-73b555ff0c2c",
             "ioValues": [
-                {
-                    "name": "Geometry",
-                    "ioValue": "06560358-425a-4db0-8648-3a011b132469"
-                },
                 {
                     "name": "Tool Size",
                     "ioValue": 6.35
@@ -6133,13 +6125,6 @@
         },
         {
             "ap1Name": "geometry",
-            "ap2Name": "Geometry",
-            "ap2Primary": false,
-            "ap1ID": "f7453a7c-2d7a-480c-b9ee-158d486c7814",
-            "ap2ID": "97d1ebd7-4960-40af-aef3-8000079fc873"
-        },
-        {
-            "ap1Name": "geometry",
             "ap2Name": "number or geometry",
             "ap2Primary": false,
             "ap1ID": "36a4d2e6-b1b8-4471-9bd0-62d3559783dc",
@@ -6158,13 +6143,6 @@
             "ap2Primary": false,
             "ap1ID": "4de84f7b-812c-4d86-906b-69c25fca823b",
             "ap2ID": "06560358-425a-4db0-8648-3a011b132469"
-        },
-        {
-            "ap1Name": "geometry",
-            "ap2Name": "Geometry",
-            "ap2Primary": false,
-            "ap1ID": "06560358-425a-4db0-8648-3a011b132469",
-            "ap2ID": "a790677a-5093-4900-8c1a-73b555ff0c2c"
         }
     ],
     "unitsKey": "MM",

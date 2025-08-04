@@ -5999,7 +5999,7 @@
                 },
                 {
                     "name": "Passes",
-                    "ioValue": 0
+                    "ioValue": 5
                 },
                 {
                     "name": "Speed",

@@ -5985,8 +5985,8 @@
         {
             "atomType": "Gcode",
             "name": "Gcode",
-            "x": 0.8650875386199794,
-            "y": 0.5487465181058496,
+            "x": 0.8452380952380952,
+            "y": 0.5543175487465182,
             "uniqueID": "a790677a-5093-4900-8c1a-73b555ff0c2c",
             "ioValues": [
                 {
@@ -5999,7 +5999,7 @@
                 },
                 {
                     "name": "Passes",
-                    "ioValue": 5
+                    "ioValue": 1
                 },
                 {
                     "name": "Speed",
@@ -6011,7 +6011,7 @@
                 },
                 {
                     "name": "Part Name",
-                    "ioValue": "Sauna Envlope"
+                    "ioValue": "Sauna-Envlope"
                 }
             ],
             "description": "Generates Maslow gcode from the input geometry.",

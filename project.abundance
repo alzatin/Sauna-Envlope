@@ -5999,23 +5999,23 @@
                 },
                 {
                     "name": "Passes",
-                    "ioValue": 1
+                    "ioValue": 0
                 },
                 {
                     "name": "Speed",
-                    "ioValue": 500
+                    "ioValue": 1500
                 },
                 {
                     "name": "Cut Through",
-                    "ioValue": 1
+                    "ioValue": 2.5
                 },
                 {
                     "name": "Part Name",
-                    "ioValue": "Sauna-Envlope"
+                    "ioValue": "Sauna Envlope"
                 }
             ],
             "description": "Generates Maslow gcode from the input geometry.",
-            "partName": "Sauna-Envlope"
+            "partName": "Sauna Envlope"
         },
         {
             "atomType": "Export",

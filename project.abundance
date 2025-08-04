@@ -5571,124 +5571,6 @@
             "tagIndex": 0
         },
         {
-            "atomType": "CutLayout",
-            "name": "Cut Layout",
-            "x": 0.707010582010582,
-            "y": 0.8997214484679666,
-            "uniqueID": "f7453a7c-2d7a-480c-b9ee-158d486c7814",
-            "ioValues": [
-                {
-                    "name": "geometry",
-                    "ioValue": "6d1eb914-c97f-45f1-9fe0-d0c95fdce69d"
-                },
-                {
-                    "name": "Sheet Width",
-                    "ioValue": 4000
-                },
-                {
-                    "name": "Sheet Height",
-                    "ioValue": 4000
-                },
-                {
-                    "name": "Part Padding",
-                    "ioValue": 6
-                }
-            ],
-            "description": "Extracts all parts tagged for cutting and lays them out on a sheet to cut.",
-            "placements": [
-                [
-                    {
-                        "id": 0,
-                        "rotate": 325,
-                        "translate": {
-                            "x": -1000,
-                            "y": 0
-                        }
-                    },
-                    {
-                        "id": 1,
-                        "rotate": 290,
-                        "translate": {
-                            "x": -860,
-                            "y": 0
-                        }
-                    },
-                    {
-                        "id": 2,
-                        "rotate": 0,
-                        "translate": {
-                            "x": 1000,
-                            "y": 101
-                        }
-                    },
-                    {
-                        "id": 3,
-                        "rotate": 90,
-                        "translate": {
-                            "x": 1000,
-                            "y": -90
-                        }
-                    },
-                    {
-                        "id": 4,
-                        "rotate": 110,
-                        "translate": {
-                            "x": -720,
-                            "y": 0
-                        }
-                    },
-                    {
-                        "id": 5,
-                        "rotate": 140,
-                        "translate": {
-                            "x": -550,
-                            "y": 0
-                        }
-                    },
-                    {
-                        "id": 6,
-                        "rotate": -55,
-                        "translate": {
-                            "x": -440,
-                            "y": 0
-                        }
-                    },
-                    {
-                        "id": 7,
-                        "rotate": -70,
-                        "translate": {
-                            "x": -300,
-                            "y": 0
-                        }
-                    },
-                    {
-                        "id": 8,
-                        "rotate": 0,
-                        "translate": {
-                            "x": 600,
-                            "y": 90
-                        }
-                    },
-                    {
-                        "id": 9,
-                        "rotate": 90,
-                        "translate": {
-                            "x": 260,
-                            "y": 0
-                        }
-                    },
-                    {
-                        "id": 10,
-                        "rotate": 0,
-                        "translate": {
-                            "x": 0,
-                            "y": 0
-                        }
-                    }
-                ]
-            ]
-        },
-        {
             "atomType": "Rectangle",
             "name": "Rectangle",
             "x": 0.7625661375661376,
@@ -6016,36 +5898,6 @@
             ],
             "description": "Generates Maslow gcode from the input geometry.",
             "partName": "Sauna-Envlope"
-        },
-        {
-            "atomType": "Export",
-            "name": "Export",
-            "x": 0.7784391534391535,
-            "y": 0.6908077994428969,
-            "uniqueID": "6cd19444-4f6c-445d-8909-0f33e38a95b0",
-            "ioValues": [
-                {
-                    "name": "geometry",
-                    "ioValue": "06560358-425a-4db0-8648-3a011b132469"
-                },
-                {
-                    "name": "Resolution (dpi)",
-                    "ioValue": 96
-                },
-                {
-                    "name": "Part Name",
-                    "ioValue": "Sauna-Envlope"
-                },
-                {
-                    "name": "File Type",
-                    "ioValue": "STL"
-                }
-            ],
-            "description": "Export Atom, let's you choose a type of file to Export.",
-            "type": "STL",
-            "resolution": 96,
-            "importIndex": 0,
-            "partName": "Sauna-Envlope"
         }
     ],
     "allConnectors": [
@@ -6108,13 +5960,6 @@
         {
             "ap1Name": "geometry",
             "ap2Name": "geometry",
-            "ap2Primary": false,
-            "ap1ID": "6d1eb914-c97f-45f1-9fe0-d0c95fdce69d",
-            "ap2ID": "f7453a7c-2d7a-480c-b9ee-158d486c7814"
-        },
-        {
-            "ap1Name": "geometry",
-            "ap2Name": "geometry",
             "ap2Primary": true,
             "ap1ID": "6d1eb914-c97f-45f1-9fe0-d0c95fdce69d",
             "ap2ID": "28ad94e8-1aa9-4d1a-9ca4-21bc1d3f608a"
@@ -6146,13 +5991,6 @@
             "ap2Primary": false,
             "ap1ID": "4de84f7b-812c-4d86-906b-69c25fca823b",
             "ap2ID": "06560358-425a-4db0-8648-3a011b132469"
-        },
-        {
-            "ap1Name": "geometry",
-            "ap2Name": "geometry",
-            "ap2Primary": false,
-            "ap1ID": "06560358-425a-4db0-8648-3a011b132469",
-            "ap2ID": "6cd19444-4f6c-445d-8909-0f33e38a95b0"
         },
         {
             "ap1Name": "geometry",

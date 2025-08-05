@@ -46,7 +46,7 @@
                     "ioValues": [
                         {
                             "name": "number or geometry",
-                            "ioValue": "d152ddb2-5b67-42c1-b929-3f2b201106fa"
+                            "ioValue": "c4d803be-10a9-4691-9fcb-9d5c29ebb28c"
                         }
                     ],
                     "description": "Connect geometry here to make it available in the next level up. "
@@ -174,8 +174,8 @@
                 {
                     "atomType": "Move",
                     "name": "Move",
-                    "x": 0.6045314109165808,
-                    "y": 0.825,
+                    "x": 0.7076719576719577,
+                    "y": 0.8607242339832869,
                     "uniqueID": "15191918-61f1-4bb3-b47c-7d0a154b4a7e",
                     "ioValues": [
                         {
@@ -299,7 +299,7 @@
                         },
                         {
                             "name": "geometry2",
-                            "ioValue": "350eaedb-f40f-431f-bb89-b42ac29f26f8"
+                            "ioValue": ""
                         }
                     ],
                     "description": "Subtracts shape two from shape one."
@@ -333,13 +333,13 @@
                 {
                     "atomType": "Difference",
                     "name": "Difference",
-                    "x": 0.7085478887744593,
-                    "y": 0.44999999999999996,
+                    "x": 0.7824074074074073,
+                    "y": 0.5543175487465182,
                     "uniqueID": "598ee9b9-bc50-46ae-a3d2-4d76a6b08284",
                     "ioValues": [
                         {
                             "name": "geometry1",
-                            "ioValue": "d2135533-b81b-4333-aa3e-33d627600c71"
+                            "ioValue": ""
                         },
                         {
                             "name": "geometry2",
@@ -597,20 +597,6 @@
                 },
                 {
                     "ap1Name": "geometry",
-                    "ap2Name": "number or geometry",
-                    "ap2Primary": false,
-                    "ap1ID": "d152ddb2-5b67-42c1-b929-3f2b201106fa",
-                    "ap2ID": "38e4e192-0119-43d0-831c-2f5f1b00829a"
-                },
-                {
-                    "ap1Name": "geometry",
-                    "ap2Name": "geometry2",
-                    "ap2Primary": false,
-                    "ap1ID": "350eaedb-f40f-431f-bb89-b42ac29f26f8",
-                    "ap2ID": "d2135533-b81b-4333-aa3e-33d627600c71"
-                },
-                {
-                    "ap1Name": "geometry",
                     "ap2Name": "geometry2",
                     "ap2Primary": false,
                     "ap1ID": "15191918-61f1-4bb3-b47c-7d0a154b4a7e",
@@ -639,17 +625,17 @@
                 },
                 {
                     "ap1Name": "geometry",
+                    "ap2Name": "number or geometry",
+                    "ap2Primary": false,
+                    "ap1ID": "c4d803be-10a9-4691-9fcb-9d5c29ebb28c",
+                    "ap2ID": "38e4e192-0119-43d0-831c-2f5f1b00829a"
+                },
+                {
+                    "ap1Name": "geometry",
                     "ap2Name": "geometry",
                     "ap2Primary": true,
                     "ap1ID": "bc7c8778-d5c4-4461-b3a0-28c00d6b7458",
                     "ap2ID": "350eaedb-f40f-431f-bb89-b42ac29f26f8"
-                },
-                {
-                    "ap1Name": "geometry",
-                    "ap2Name": "geometry1",
-                    "ap2Primary": false,
-                    "ap1ID": "d2135533-b81b-4333-aa3e-33d627600c71",
-                    "ap2ID": "598ee9b9-bc50-46ae-a3d2-4d76a6b08284"
                 },
                 {
                     "ap1Name": "geometry",

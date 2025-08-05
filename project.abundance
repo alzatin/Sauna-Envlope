@@ -5893,11 +5893,11 @@
                 },
                 {
                     "name": "Part Name",
-                    "ioValue": "Sauna-Envlope"
+                    "ioValue": "Sauna Envlope Bigger Bumps"
                 }
             ],
             "description": "Generates Maslow gcode from the input geometry.",
-            "partName": "Sauna-Envlope"
+            "partName": "Sauna Envlope Bigger Bumps"
         }
     ],
     "allConnectors": [

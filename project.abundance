@@ -17,7 +17,7 @@
             "ioValues": [
                 {
                     "name": "number or geometry",
-                    "ioValue": "36a4d2e6-b1b8-4471-9bd0-62d3559783dc"
+                    "ioValue": "06560358-425a-4db0-8648-3a011b132469"
                 }
             ],
             "description": "Connect geometry here to make it available in the next level up. "
@@ -5867,13 +5867,13 @@
         {
             "atomType": "Gcode",
             "name": "Gcode",
-            "x": 0.8333333333333334,
-            "y": 0.6518105849582172,
+            "x": 0.9093915343915343,
+            "y": 0.27298050139275765,
             "uniqueID": "a790677a-5093-4900-8c1a-73b555ff0c2c",
             "ioValues": [
                 {
                     "name": "Geometry",
-                    "ioValue": "06560358-425a-4db0-8648-3a011b132469"
+                    "ioValue": "a51c3545-21ad-4918-b294-d7510cf0d9a0"
                 },
                 {
                     "name": "Tool Size",
@@ -5893,7 +5893,7 @@
                 },
                 {
                     "name": "Part Name",
-                    "ioValue": "Sauna Envlope Bigger Bumps"
+                    "ioValue": "Sauna-Envlope"
                 }
             ],
             "description": "Generates Maslow gcode from the input geometry.",
@@ -5930,7 +5930,7 @@
                 },
                 {
                     "name": "xDist",
-                    "ioValue": 1219.2
+                    "ioValue": 1530
                 },
                 {
                     "name": "yDist",
@@ -5942,6 +5942,24 @@
                 }
             ],
             "description": "Moves a shape laterally in X, Y, Z."
+        },
+        {
+            "atomType": "Intersection",
+            "name": "Intersection",
+            "x": 0.8994708994708994,
+            "y": 0.8245125348189415,
+            "uniqueID": "a51c3545-21ad-4918-b294-d7510cf0d9a0",
+            "ioValues": [
+                {
+                    "name": "geometry1",
+                    "ioValue": "06560358-425a-4db0-8648-3a011b132469"
+                },
+                {
+                    "name": "geometry2",
+                    "ioValue": "d935168f-842d-451c-bf9b-1ce6abbadb3d"
+                }
+            ],
+            "description": "The space shared by two shapes."
         }
     ],
     "allConnectors": [
@@ -6024,13 +6042,6 @@
         },
         {
             "ap1Name": "geometry",
-            "ap2Name": "number or geometry",
-            "ap2Primary": false,
-            "ap1ID": "36a4d2e6-b1b8-4471-9bd0-62d3559783dc",
-            "ap2ID": "9b886d02-1bbe-4635-be41-d54e6e49b324"
-        },
-        {
-            "ap1Name": "geometry",
             "ap2Name": "Shape 2",
             "ap2Primary": false,
             "ap1ID": "28ad94e8-1aa9-4d1a-9ca4-21bc1d3f608a",
@@ -6045,10 +6056,17 @@
         },
         {
             "ap1Name": "geometry",
-            "ap2Name": "Geometry",
+            "ap2Name": "number or geometry",
             "ap2Primary": false,
             "ap1ID": "06560358-425a-4db0-8648-3a011b132469",
-            "ap2ID": "a790677a-5093-4900-8c1a-73b555ff0c2c"
+            "ap2ID": "9b886d02-1bbe-4635-be41-d54e6e49b324"
+        },
+        {
+            "ap1Name": "geometry",
+            "ap2Name": "geometry1",
+            "ap2Primary": false,
+            "ap1ID": "06560358-425a-4db0-8648-3a011b132469",
+            "ap2ID": "a51c3545-21ad-4918-b294-d7510cf0d9a0"
         },
         {
             "ap1Name": "geometry",
@@ -6056,10 +6074,31 @@
             "ap2Primary": true,
             "ap1ID": "36fa3ca6-a115-493a-bbfb-27ced6251249",
             "ap2ID": "d935168f-842d-451c-bf9b-1ce6abbadb3d"
+        },
+        {
+            "ap1Name": "geometry",
+            "ap2Name": "geometry2",
+            "ap2Primary": false,
+            "ap1ID": "d935168f-842d-451c-bf9b-1ce6abbadb3d",
+            "ap2ID": "a51c3545-21ad-4918-b294-d7510cf0d9a0"
+        },
+        {
+            "ap1Name": "geometry",
+            "ap2Name": "Geometry",
+            "ap2Primary": false,
+            "ap1ID": "a51c3545-21ad-4918-b294-d7510cf0d9a0",
+            "ap2ID": "a790677a-5093-4900-8c1a-73b555ff0c2c"
         }
     ],
     "unitsKey": "MM",
     "fileTypeVersion": 1,
-    "compiledBom": [],
+    "compiledBom": [
+        {
+            "BOMitemName": "1/4-20 T-Nut",
+            "numberNeeded": 4,
+            "costUSD": 2.04,
+            "source": "https://www.amazon.com/dp/B08WFG7WYP?ref=ppx_yo2ov_dt_b_fed_asin_title"
+        }
+    ],
     "filetypeVersion": 1
 }

@@ -2,6 +2,7 @@
 # Bill Of Materials 
  |Part|Number Needed|Price|Source| 
  |----|----------|-----|-----|
-|Total: |0|$0.00| |
+|1/4-20 T-Nut|4|$2.04|[Amazon](https://www.amazon.com/dp/B08WFG7WYP?ref=ppx_yo2ov_dt_b_fed_asin_title?tag=maslowcnc01-20)|
+|Total: |4|$2.04| |
 
- 3xCOG MSRP: $0.00
+ 3xCOG MSRP: $6.12

@@ -17,7 +17,7 @@
             "ioValues": [
                 {
                     "name": "number or geometry",
-                    "ioValue": "06560358-425a-4db0-8648-3a011b132469"
+                    "ioValue": "36a4d2e6-b1b8-4471-9bd0-62d3559783dc"
                 }
             ],
             "description": "Connect geometry here to make it available in the next level up. "
@@ -5867,8 +5867,8 @@
         {
             "atomType": "Gcode",
             "name": "Gcode",
-            "x": 0.9093915343915343,
-            "y": 0.27298050139275765,
+            "x": 0.8981481481481481,
+            "y": 0.22284122562674097,
             "uniqueID": "a790677a-5093-4900-8c1a-73b555ff0c2c",
             "ioValues": [
                 {
@@ -5893,11 +5893,11 @@
                 },
                 {
                     "name": "Part Name",
-                    "ioValue": "Sauna-Envlope"
+                    "ioValue": "Sauna-Envlope Just Remaining Parts"
                 }
             ],
             "description": "Generates Maslow gcode from the input geometry.",
-            "partName": "Sauna-Envlope"
+            "partName": "Sauna-Envlope Just Remaining Parts"
         },
         {
             "atomType": "Extrude",
@@ -6042,6 +6042,13 @@
         },
         {
             "ap1Name": "geometry",
+            "ap2Name": "number or geometry",
+            "ap2Primary": false,
+            "ap1ID": "36a4d2e6-b1b8-4471-9bd0-62d3559783dc",
+            "ap2ID": "9b886d02-1bbe-4635-be41-d54e6e49b324"
+        },
+        {
+            "ap1Name": "geometry",
             "ap2Name": "Shape 2",
             "ap2Primary": false,
             "ap1ID": "28ad94e8-1aa9-4d1a-9ca4-21bc1d3f608a",
@@ -6053,13 +6060,6 @@
             "ap2Primary": false,
             "ap1ID": "4de84f7b-812c-4d86-906b-69c25fca823b",
             "ap2ID": "06560358-425a-4db0-8648-3a011b132469"
-        },
-        {
-            "ap1Name": "geometry",
-            "ap2Name": "number or geometry",
-            "ap2Primary": false,
-            "ap1ID": "06560358-425a-4db0-8648-3a011b132469",
-            "ap2ID": "9b886d02-1bbe-4635-be41-d54e6e49b324"
         },
         {
             "ap1Name": "geometry",
@@ -6092,13 +6092,6 @@
     ],
     "unitsKey": "MM",
     "fileTypeVersion": 1,
-    "compiledBom": [
-        {
-            "BOMitemName": "1/4-20 T-Nut",
-            "numberNeeded": 4,
-            "costUSD": 2.04,
-            "source": "https://www.amazon.com/dp/B08WFG7WYP?ref=ppx_yo2ov_dt_b_fed_asin_title"
-        }
-    ],
+    "compiledBom": [],
     "filetypeVersion": 1
 }

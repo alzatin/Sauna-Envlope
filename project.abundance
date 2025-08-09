@@ -5964,13 +5964,13 @@
         {
             "atomType": "CutLayout",
             "name": "Cut Layout",
-            "x": 0.9246031746031745,
-            "y": 0.8607242339832869,
+            "x": 0.9312169312169312,
+            "y": 0.9052924791086352,
             "uniqueID": "99d86471-3e34-4db7-b1cd-3e086a830a34",
             "ioValues": [
                 {
                     "name": "geometry",
-                    "ioValue": ""
+                    "ioValue": "a51c3545-21ad-4918-b294-d7510cf0d9a0"
                 },
                 {
                     "name": "Sheet Width",
@@ -5986,7 +5986,64 @@
                 }
             ],
             "description": "Extracts all parts tagged for cutting and lays them out on a sheet to cut.",
-            "placements": []
+            "placements": [
+                [
+                    {
+                        "id": 1,
+                        "rotate": 0,
+                        "translate": {
+                            "x": 40,
+                            "y": 60
+                        }
+                    },
+                    {
+                        "id": 0,
+                        "rotate": 0,
+                        "translate": {
+                            "x": 700,
+                            "y": 0
+                        }
+                    },
+                    {
+                        "id": 3,
+                        "rotate": 0,
+                        "translate": {
+                            "x": 500,
+                            "y": 0
+                        }
+                    },
+                    {
+                        "id": 2,
+                        "rotate": 0,
+                        "translate": {
+                            "x": 500,
+                            "y": 0
+                        }
+                    },
+                    {
+                        "id": 4,
+                        "rotate": 0,
+                        "translate": {
+                            "x": 500,
+                            "y": 0
+                        }
+                    }
+                ]
+            ]
+        },
+        {
+            "atomType": "Circle",
+            "name": "Circle",
+            "x": 0.7976190476190476,
+            "y": 0.38440111420612816,
+            "uniqueID": "cf08abcc-0a81-4cab-a3f6-dddc7ad7ecb9",
+            "ioValues": [
+                {
+                    "name": "diameter",
+                    "ioValue": 10
+                }
+            ],
+            "description": "Creates a new circle."
         }
     ],
     "allConnectors": [

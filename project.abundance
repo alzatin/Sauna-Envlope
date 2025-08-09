@@ -11,8 +11,8 @@
         {
             "atomType": "Output",
             "name": "Output",
-            "x": 0.98,
-            "y": 0.5,
+            "x": 0.9775132275132276,
+            "y": 0.9331476323119776,
             "uniqueID": "9b886d02-1bbe-4635-be41-d54e6e49b324",
             "ioValues": [
                 {
@@ -25,8 +25,8 @@
         {
             "atomType": "Molecule",
             "name": "Envlope",
-            "x": 0.1488095238095238,
-            "y": 0.3899721448467966,
+            "x": 0.04497354497354498,
+            "y": 0.2924791086350975,
             "uniqueID": "0a40ea50-8d5e-49ae-bd3b-df35fa44f718",
             "ioValues": [
                 {
@@ -707,8 +707,8 @@
         {
             "atomType": "Molecule",
             "name": "Split Apart",
-            "x": 0.38888888888888884,
-            "y": 0.9080779944289693,
+            "x": 0.3531746031746032,
+            "y": 0.83008356545961,
             "uniqueID": "b7f7ce1d-09db-481a-85ea-1a6d6fa21899",
             "ioValues": [
                 {
@@ -4709,8 +4709,8 @@
         {
             "atomType": "Rotate",
             "name": "Rotate",
-            "x": 0.34854497354497355,
-            "y": 0.6267409470752089,
+            "x": 0.24007936507936506,
+            "y": 0.766016713091922,
             "uniqueID": "0c6928d9-8d87-433d-a5e2-df0e7766b45e",
             "ioValues": [
                 {
@@ -5487,8 +5487,8 @@
         {
             "atomType": "Difference",
             "name": "Difference",
-            "x": 0.2724867724867725,
-            "y": 0.7632311977715878,
+            "x": 0.15211640211640212,
+            "y": 0.4568245125348189,
             "uniqueID": "0b534dd5-6f4e-4263-9395-c0a2fafade08",
             "ioValues": [
                 {
@@ -5531,8 +5531,8 @@
         {
             "atomType": "Move",
             "name": "Move",
-            "x": 0.47288359788359785,
-            "y": 0.40668523676880225,
+            "x": 0.23015873015873015,
+            "y": 0.1977715877437326,
             "uniqueID": "888f3970-1adc-4f52-baf5-77df7a8b68ca",
             "ioValues": [
                 {
@@ -5557,8 +5557,8 @@
         {
             "atomType": "ExtractTag",
             "name": "Extract Tag",
-            "x": 0.4933058702368693,
-            "y": 0.766016713091922,
+            "x": 0.33664021164021163,
+            "y": 0.42618384401114207,
             "uniqueID": "6d1eb914-c97f-45f1-9fe0-d0c95fdce69d",
             "ioValues": [
                 {
@@ -5591,8 +5591,8 @@
         {
             "atomType": "Rotate",
             "name": "Rotate",
-            "x": 0.627188465499485,
-            "y": 0.40111420612813375,
+            "x": 0.5198412698412698,
+            "y": 0.1894150417827298,
             "uniqueID": "42372014-1bd2-4502-b61e-cea7724a52d9",
             "ioValues": [
                 {
@@ -5617,8 +5617,8 @@
         {
             "atomType": "Move",
             "name": "Move",
-            "x": 0.5777548918640576,
-            "y": 0.5654596100278552,
+            "x": 0.4715608465608465,
+            "y": 0.48467966573816157,
             "uniqueID": "28ad94e8-1aa9-4d1a-9ca4-21bc1d3f608a",
             "ioValues": [
                 {
@@ -5643,8 +5643,8 @@
         {
             "atomType": "Assembly",
             "name": "Assembly",
-            "x": 0.6488156539649845,
-            "y": 0.7242339832869081,
+            "x": 0.47619047619047616,
+            "y": 0.7158774373259054,
             "uniqueID": "4de84f7b-812c-4d86-906b-69c25fca823b",
             "ioValues": [
                 {
@@ -5661,8 +5661,8 @@
         {
             "atomType": "CutLayout",
             "name": "Cut Layout",
-            "x": 0.7242063492063492,
-            "y": 0.3816155988857939,
+            "x": 0.5681216931216931,
+            "y": 0.36490250696378834,
             "uniqueID": "06560358-425a-4db0-8648-3a011b132469",
             "ioValues": [
                 {
@@ -5867,13 +5867,13 @@
         {
             "atomType": "Gcode",
             "name": "Gcode",
-            "x": 0.8981481481481481,
-            "y": 0.22284122562674097,
+            "x": 0.8412698412698413,
+            "y": 0.2395543175487465,
             "uniqueID": "a790677a-5093-4900-8c1a-73b555ff0c2c",
             "ioValues": [
                 {
                     "name": "Geometry",
-                    "ioValue": "a51c3545-21ad-4918-b294-d7510cf0d9a0"
+                    "ioValue": "99d86471-3e34-4db7-b1cd-3e086a830a34"
                 },
                 {
                     "name": "Tool Size",
@@ -5893,17 +5893,17 @@
                 },
                 {
                     "name": "Part Name",
-                    "ioValue": "Sauna-Envlope Just Remaining Parts"
+                    "ioValue": "Last Pieces"
                 }
             ],
             "description": "Generates Maslow gcode from the input geometry.",
-            "partName": "Sauna-Envlope"
+            "partName": "Last Pieces"
         },
         {
             "atomType": "Extrude",
             "name": "Extrude",
-            "x": 0.6064814814814814,
-            "y": 0.935933147632312,
+            "x": 0.5906084656084656,
+            "y": 0.7381615598885795,
             "uniqueID": "36fa3ca6-a115-493a-bbfb-27ced6251249",
             "ioValues": [
                 {
@@ -5920,8 +5920,8 @@
         {
             "atomType": "Move",
             "name": "Move",
-            "x": 0.7037037037037037,
-            "y": 0.9052924791086352,
+            "x": 0.6904761904761905,
+            "y": 0.6713091922005571,
             "uniqueID": "d935168f-842d-451c-bf9b-1ce6abbadb3d",
             "ioValues": [
                 {
@@ -5946,8 +5946,8 @@
         {
             "atomType": "Intersection",
             "name": "Intersection",
-            "x": 0.7956349206349206,
-            "y": 0.8050139275766017,
+            "x": 0.6798941798941799,
+            "y": 0.37047353760445684,
             "uniqueID": "a51c3545-21ad-4918-b294-d7510cf0d9a0",
             "ioValues": [
                 {
@@ -5964,8 +5964,8 @@
         {
             "atomType": "CutLayout",
             "name": "Cut Layout",
-            "x": 0.9166666666666667,
-            "y": 0.8746518105849581,
+            "x": 0.8048941798941799,
+            "y": 0.6211699164345404,
             "uniqueID": "99d86471-3e34-4db7-b1cd-3e086a830a34",
             "ioValues": [
                 {
@@ -6030,20 +6030,6 @@
                     }
                 ]
             ]
-        },
-        {
-            "atomType": "Circle",
-            "name": "Circle",
-            "x": 0.7976190476190476,
-            "y": 0.38440111420612816,
-            "uniqueID": "cf08abcc-0a81-4cab-a3f6-dddc7ad7ecb9",
-            "ioValues": [
-                {
-                    "name": "diameter",
-                    "ioValue": 10
-                }
-            ],
-            "description": "Creates a new circle."
         }
     ],
     "allConnectors": [
@@ -6168,17 +6154,17 @@
         },
         {
             "ap1Name": "geometry",
-            "ap2Name": "Geometry",
-            "ap2Primary": false,
-            "ap1ID": "a51c3545-21ad-4918-b294-d7510cf0d9a0",
-            "ap2ID": "a790677a-5093-4900-8c1a-73b555ff0c2c"
-        },
-        {
-            "ap1Name": "geometry",
             "ap2Name": "geometry",
             "ap2Primary": false,
             "ap1ID": "a51c3545-21ad-4918-b294-d7510cf0d9a0",
             "ap2ID": "99d86471-3e34-4db7-b1cd-3e086a830a34"
+        },
+        {
+            "ap1Name": "geometry",
+            "ap2Name": "Geometry",
+            "ap2Primary": false,
+            "ap1ID": "99d86471-3e34-4db7-b1cd-3e086a830a34",
+            "ap2ID": "a790677a-5093-4900-8c1a-73b555ff0c2c"
         }
     ],
     "unitsKey": "MM",

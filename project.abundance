@@ -2613,8 +2613,8 @@
                 {
                     "atomType": "Assembly",
                     "name": "Assembly",
-                    "x": 0.6031746031746031,
-                    "y": 0.31197771587743733,
+                    "x": 0.6104497354497355,
+                    "y": 0.3342618384401114,
                     "uniqueID": "a857b617-d3fb-4d63-b3df-0b236e6e6590",
                     "ioValues": [
                         {
@@ -5353,8 +5353,8 @@
                 {
                     "atomType": "CutLayout",
                     "name": "Cut Layout",
-                    "x": 0.46825396825396826,
-                    "y": 0.5766016713091923,
+                    "x": 0.4702380952380953,
+                    "y": 0.5682451253481894,
                     "uniqueID": "da7a8274-4de4-442e-9102-c6e03aec55ec",
                     "ioValues": [
                         {
@@ -5607,8 +5607,8 @@
                 {
                     "atomType": "Gcode",
                     "name": "Gcode",
-                    "x": 0.7321428571428571,
-                    "y": 0.8635097493036212,
+                    "x": 0.6970899470899471,
+                    "y": 0.7075208913649026,
                     "uniqueID": "c8fd07e6-a845-41a1-8e55-04370997a0a7",
                     "ioValues": [
                         {
@@ -5638,6 +5638,32 @@
                     ],
                     "description": "Generates Maslow gcode from the input geometry. For single parts, generates one gcode file. For assemblies, extracts individual parts, sorts them left to right based on bounding boxes, generates gcode for each part sequentially, and concatenates the results into one file.",
                     "partName": "Split Apart"
+                },
+                {
+                    "atomType": "Move",
+                    "name": "Move",
+                    "x": 0.5707671957671958,
+                    "y": 0.7938718662952646,
+                    "uniqueID": "a9558035-e0ac-4498-b02f-306d2f6cf912",
+                    "ioValues": [
+                        {
+                            "name": "geometry",
+                            "ioValue": "da7a8274-4de4-442e-9102-c6e03aec55ec"
+                        },
+                        {
+                            "name": "xDist",
+                            "ioValue": 0
+                        },
+                        {
+                            "name": "yDist",
+                            "ioValue": 0
+                        },
+                        {
+                            "name": "zDist",
+                            "ioValue": 0
+                        }
+                    ],
+                    "description": "Moves a shape laterally in X, Y, Z."
                 }
             ],
             "allConnectors": [
@@ -5724,6 +5750,13 @@
                     "ap2Primary": false,
                     "ap1ID": "da7a8274-4de4-442e-9102-c6e03aec55ec",
                     "ap2ID": "c8fd07e6-a845-41a1-8e55-04370997a0a7"
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "geometry",
+                    "ap2Primary": true,
+                    "ap1ID": "da7a8274-4de4-442e-9102-c6e03aec55ec",
+                    "ap2ID": "a9558035-e0ac-4498-b02f-306d2f6cf912"
                 }
             ],
             "fileTypeVersion": 1,

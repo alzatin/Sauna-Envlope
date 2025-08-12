@@ -2631,8 +2631,8 @@
                 {
                     "atomType": "Molecule",
                     "name": "Bracing",
-                    "x": 0.36904761904761907,
-                    "y": 0.596100278551532,
+                    "x": 0.3697089947089947,
+                    "y": 0.5988857938718662,
                     "uniqueID": "6e5151c3-21b6-4b33-a841-b6fd0c505af5",
                     "ioValues": [
                         {
@@ -3816,7 +3816,7 @@
                                             "ioValues": [
                                                 {
                                                     "name": "x length",
-                                                    "ioValue": 2438.4
+                                                    "ioValue": 2138.4
                                                 },
                                                 {
                                                     "name": "y length",
@@ -3900,13 +3900,13 @@
                                         {
                                             "atomType": "Rectangle",
                                             "name": "Rectangle",
-                                            "x": 0.18452380952380953,
-                                            "y": 0.7298050139275767,
+                                            "x": 0.24140211640211642,
+                                            "y": 0.7465181058495821,
                                             "uniqueID": "8fadd844-240e-4f3b-8716-3d202796869b",
                                             "ioValues": [
                                                 {
                                                     "name": "x length",
-                                                    "ioValue": 304.7999999999997
+                                                    "ioValue": 404.8
                                                 },
                                                 {
                                                     "name": "y length",
@@ -3946,7 +3946,7 @@
                                                 },
                                                 {
                                                     "name": "xDist",
-                                                    "ioValue": -1219.2
+                                                    "ioValue": -1169.2
                                                 },
                                                 {
                                                     "name": "yDist",
@@ -5541,8 +5541,8 @@
                                 "id": 13,
                                 "rotate": 0,
                                 "translate": {
-                                    "x": 1222.9000000000003,
-                                    "y": 1374.0664993000005
+                                    "x": 0,
+                                    "y": 500
                                 }
                             },
                             {

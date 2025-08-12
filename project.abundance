@@ -732,7 +732,7 @@
                     "ioValues": [
                         {
                             "name": "number or geometry",
-                            "ioValue": "a857b617-d3fb-4d63-b3df-0b236e6e6590"
+                            "ioValue": "98245218-57e5-4529-a068-4678ded84c04"
                         }
                     ],
                     "description": "Connect geometry here to make it available in the next level up. "
@@ -5303,8 +5303,8 @@
                 {
                     "atomType": "ExtractTag",
                     "name": "Extract Tag",
-                    "x": 0.7691798941798942,
-                    "y": 0.5933147632311978,
+                    "x": 0.7367724867724867,
+                    "y": 0.25348189415041783,
                     "uniqueID": "e6c70707-8101-4c77-a37a-1b2a82886e65",
                     "ioValues": [
                         {
@@ -5607,13 +5607,13 @@
                 {
                     "atomType": "Gcode",
                     "name": "Gcode",
-                    "x": 0.7321428571428571,
-                    "y": 0.8635097493036212,
+                    "x": 0.8802910052910053,
+                    "y": 0.8885793871866295,
                     "uniqueID": "c8fd07e6-a845-41a1-8e55-04370997a0a7",
                     "ioValues": [
                         {
                             "name": "Geometry",
-                            "ioValue": "da7a8274-4de4-442e-9102-c6e03aec55ec"
+                            "ioValue": ""
                         },
                         {
                             "name": "Tool Size",
@@ -5638,6 +5638,50 @@
                     ],
                     "description": "Generates Maslow gcode from the input geometry. For single parts, generates one gcode file. For assemblies, extracts individual parts, sorts them left to right based on bounding boxes, generates gcode for each part sequentially, and concatenates the results into one file.",
                     "partName": "Split Apart"
+                },
+                {
+                    "atomType": "Rectangle",
+                    "name": "Rectangle",
+                    "x": 0.816137566137566,
+                    "y": 0.14206128133704735,
+                    "uniqueID": "98245218-57e5-4529-a068-4678ded84c04",
+                    "ioValues": [
+                        {
+                            "name": "x length",
+                            "ioValue": 2438.4
+                        },
+                        {
+                            "name": "y length",
+                            "ioValue": 1219.1999999999998
+                        }
+                    ],
+                    "description": "Creates a new rectangle."
+                },
+                {
+                    "atomType": "Move",
+                    "name": "Move",
+                    "x": 0.7202380952380952,
+                    "y": 0.7465181058495821,
+                    "uniqueID": "2cb0e7e0-d91d-4638-88ce-dc8557907bad",
+                    "ioValues": [
+                        {
+                            "name": "geometry",
+                            "ioValue": "da7a8274-4de4-442e-9102-c6e03aec55ec"
+                        },
+                        {
+                            "name": "xDist",
+                            "ioValue": 0
+                        },
+                        {
+                            "name": "yDist",
+                            "ioValue": 0
+                        },
+                        {
+                            "name": "zDist",
+                            "ioValue": 0
+                        }
+                    ],
+                    "description": "Moves a shape laterally in X, Y, Z."
                 }
             ],
             "allConnectors": [
@@ -5668,13 +5712,6 @@
                     "ap2Primary": false,
                     "ap1ID": "1aa1ba37-c26c-45d3-9d3c-44992d4975e7",
                     "ap2ID": "a857b617-d3fb-4d63-b3df-0b236e6e6590"
-                },
-                {
-                    "ap1Name": "geometry",
-                    "ap2Name": "number or geometry",
-                    "ap2Primary": false,
-                    "ap1ID": "a857b617-d3fb-4d63-b3df-0b236e6e6590",
-                    "ap2ID": "409a2508-217c-43b6-a4d4-c31533884b69"
                 },
                 {
                     "ap1Name": "geometry",
@@ -5720,9 +5757,23 @@
                 },
                 {
                     "ap1Name": "geometry",
+                    "ap2Name": "geometry",
+                    "ap2Primary": true,
+                    "ap1ID": "da7a8274-4de4-442e-9102-c6e03aec55ec",
+                    "ap2ID": "2cb0e7e0-d91d-4638-88ce-dc8557907bad"
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "number or geometry",
+                    "ap2Primary": false,
+                    "ap1ID": "98245218-57e5-4529-a068-4678ded84c04",
+                    "ap2ID": "409a2508-217c-43b6-a4d4-c31533884b69"
+                },
+                {
+                    "ap1Name": "geometry",
                     "ap2Name": "Geometry",
                     "ap2Primary": false,
-                    "ap1ID": "da7a8274-4de4-442e-9102-c6e03aec55ec",
+                    "ap1ID": "2cb0e7e0-d91d-4638-88ce-dc8557907bad",
                     "ap2ID": "c8fd07e6-a845-41a1-8e55-04370997a0a7"
                 }
             ],

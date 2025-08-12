@@ -3792,7 +3792,7 @@
                                             "ioValues": [
                                                 {
                                                     "name": "number or geometry",
-                                                    "ioValue": "547bdc59-2783-4ba3-be86-c177637b8167"
+                                                    "ioValue": "f122e7bc-066d-4ec2-ad4c-4b00029adb36"
                                                 }
                                             ],
                                             "description": "Connect geometry here to make it available in the next level up. "
@@ -3906,7 +3906,7 @@
                                             "ioValues": [
                                                 {
                                                     "name": "x length",
-                                                    "ioValue": 404.8
+                                                    "ioValue": 604.8
                                                 },
                                                 {
                                                     "name": "y length",
@@ -3946,7 +3946,7 @@
                                                 },
                                                 {
                                                     "name": "xDist",
-                                                    "ioValue": -1169.2
+                                                    "ioValue": -1069.2
                                                 },
                                                 {
                                                     "name": "yDist",
@@ -3962,8 +3962,8 @@
                                         {
                                             "atomType": "Assembly",
                                             "name": "Assembly",
-                                            "x": 0.6428571428571428,
-                                            "y": 0.7465181058495821,
+                                            "x": 0.6468253968253969,
+                                            "y": 0.7715877437325905,
                                             "uniqueID": "50b9ea60-1e17-466c-9dbe-81908af5ca45",
                                             "ioValues": [
                                                 {
@@ -4079,24 +4079,6 @@
                                             ],
                                             "description": "Defines a mathematical equation. Edit the output field to add or remove inputs.",
                                             "currentEquation": "-1*T"
-                                        },
-                                        {
-                                            "atomType": "Rectangle",
-                                            "name": "Rectangle",
-                                            "x": 0.9074074074074076,
-                                            "y": 0.8495821727019498,
-                                            "uniqueID": "547bdc59-2783-4ba3-be86-c177637b8167",
-                                            "ioValues": [
-                                                {
-                                                    "name": "x length",
-                                                    "ioValue": 2743.2
-                                                },
-                                                {
-                                                    "name": "y length",
-                                                    "ioValue": 10
-                                                }
-                                            ],
-                                            "description": "Creates a new rectangle."
                                         }
                                     ],
                                     "allConnectors": [
@@ -4186,6 +4168,13 @@
                                         },
                                         {
                                             "ap1Name": "geometry",
+                                            "ap2Name": "number or geometry",
+                                            "ap2Primary": false,
+                                            "ap1ID": "f122e7bc-066d-4ec2-ad4c-4b00029adb36",
+                                            "ap2ID": "4494305a-152b-417d-a51c-456f85128578"
+                                        },
+                                        {
+                                            "ap1Name": "geometry",
                                             "ap2Name": "geometry",
                                             "ap2Primary": true,
                                             "ap1ID": "d08ba627-87ca-435e-b2f8-25dd7820224c",
@@ -4211,13 +4200,6 @@
                                             "ap2Primary": false,
                                             "ap1ID": "a80b4ae1-0b17-4079-a37f-d41188cae099",
                                             "ap2ID": "d08ba627-87ca-435e-b2f8-25dd7820224c"
-                                        },
-                                        {
-                                            "ap1Name": "geometry",
-                                            "ap2Name": "number or geometry",
-                                            "ap2Primary": false,
-                                            "ap1ID": "547bdc59-2783-4ba3-be86-c177637b8167",
-                                            "ap2ID": "4494305a-152b-417d-a51c-456f85128578"
                                         }
                                     ],
                                     "fileTypeVersion": 1,
